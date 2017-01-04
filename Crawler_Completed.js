@@ -3,6 +3,7 @@ const JOIN_COMPLETED_URL = JOIN_URL + '/idea/index/search/COMPLETED?page=1&size=
 const JOIN_DETAIL_URL = JOIN_URL + '/idea/detail/';
 const JOIN_SUGGESTION_URL = JOIN_URL + '/idea/export/endorse/suggestion/';
 const ENDORSES_JSON = 'endorses.json';
+const SUGGESTIONS_CSV = 'suggestions.csv';
 
 var system = require('system');
 var page = require('webpage').create();
@@ -70,7 +71,7 @@ function getProjectContent(current) {
 function downloadCSV(id) {
     var execFile = process.execFile;
     execFile("curl", ["-XGET", JOIN_SUGGESTION_URL + id], null, function (err, stdout, stderr) {
-    fs.write(id + '/suggestion.csv', stdout, 'w');
+    fs.write(id + '/' + SUGGESTIONS_CSV, stdout, 'w');
     console.log("execFileSTDERR:", stderr);
     })
 }
@@ -118,5 +119,9 @@ function waitFor(testFx, onReady, timeOutMillis) {
 };
 
 function finish() {
+    execFile("ls", ["-lF", "/usr"], null, function (err, stdout, stderr) {
+        console.log("execFileSTDOUT:", JSON.stringify(stdout))
+        console.log("execFileSTDERR:", JSON.stringify(stderr))
+    })
     phantom.exit();
 }
