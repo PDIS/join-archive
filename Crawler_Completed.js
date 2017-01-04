@@ -2,6 +2,7 @@ const JOIN_URL = 'http://join.gov.tw';
 const JOIN_COMPLETED_URL = JOIN_URL + '/idea/index/search/COMPLETED?page=1&size=99999';
 const JOIN_DETAIL_URL = JOIN_URL + '/idea/detail/';
 const JOIN_SUGGESTION_URL = JOIN_URL + '/idea/export/endorse/suggestion/';
+const ARCHIVE_FOLDER = 'archive/';
 const ENDORSES_JSON = 'endorses.json';
 const SUGGESTIONS_CSV = 'suggestions.csv';
 
@@ -16,6 +17,8 @@ page.viewportSize = { width: 1024, height: 768 };
 
 console.log("Crawling Satrt ...")
 
+fs.makeDirectory(ARCHIVE_FOLDER);
+
 execute();
 
 function execute() {
@@ -27,7 +30,7 @@ function execute() {
 
             ENDORSES = page.evaluate(function () { return searchResult.result });
             ENDORSES = ENDORSES.map(function (endorse) { return cleanObject(endorse) });
-            fs.write(ENDORSES_JSON, JSON.stringify(ENDORSES, null, 2), 'w');
+            fs.write(ARCHIVE_FOLDER + ENDORSES_JSON, JSON.stringify(ENDORSES, null, 2), 'w');
             console.log('Get ' + ENDORSES.length + ' endorses...');
 
             if (ENDORSES.length > 0) {
@@ -51,8 +54,8 @@ function getProjectContent(current) {
             waitFor(
                 function () {
                     endorse = page.evaluate(function () { return idea });
-                    fs.makeDirectory(ENDORSES[current].id);
-                    fs.write(ENDORSES[current].id + '/endorse.json', JSON.stringify(endorse, null, 2), 'w');
+                    fs.makeDirectory(ARCHIVE_FOLDER + ENDORSES[current].id);
+                    fs.write(ARCHIVE_FOLDER + ENDORSES[current].id + '/endorse.json', JSON.stringify(endorse, null, 2), 'w');
                     downloadCSV(ENDORSES[current].id);
                 },
                 function () {
@@ -71,7 +74,7 @@ function getProjectContent(current) {
 function downloadCSV(id) {
     var execFile = process.execFile;
     execFile("curl", ["-XGET", JOIN_SUGGESTION_URL + id], null, function (err, stdout, stderr) {
-    fs.write(id + '/' + SUGGESTIONS_CSV, stdout, 'w');
+    fs.write(ARCHIVE_FOLDER + id + '/' + SUGGESTIONS_CSV, stdout, 'w');
     console.log("execFileSTDERR:", stderr);
     })
 }
@@ -119,9 +122,5 @@ function waitFor(testFx, onReady, timeOutMillis) {
 };
 
 function finish() {
-    execFile("ls", ["-lF", "/usr"], null, function (err, stdout, stderr) {
-        console.log("execFileSTDOUT:", JSON.stringify(stdout))
-        console.log("execFileSTDERR:", JSON.stringify(stderr))
-    })
     phantom.exit();
 }
