@@ -6,4 +6,4 @@
  -   `phantomjs Crawler_Completed.js`
 
 # Update to github
- -   sh update
+ -   sh update.sh
