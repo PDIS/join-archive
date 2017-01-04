@@ -4,3 +4,6 @@
 # How to run
  -   install phantomjs & curl
  -   `phantomjs Crawler_Completed.js`
+
+# Update to github
+ -   sh update
