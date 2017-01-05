@@ -4,7 +4,6 @@ const JOIN_DETAIL_URL = JOIN_URL + '/idea/detail/';
 const JOIN_SUGGESTION_URL = JOIN_URL + '/idea/export/endorse/suggestion/';
 const ARCHIVE_FOLDER = 'archive/';
 const ENDORSES_JSON = 'endorses.json';
-const SUGGESTIONS_CSV = 'suggestions.csv';
 
 var system = require('system');
 var page = require('webpage').create();
@@ -30,7 +29,7 @@ function execute() {
 
             ENDORSES = page.evaluate(function () { return searchResult.result });
             ENDORSES = ENDORSES.map(function (endorse) { return cleanObject(endorse) });
-            fs.write(ARCHIVE_FOLDER + ENDORSES_JSON, JSON.stringify(ENDORSES, null, 2), 'w');
+            // fs.write(ARCHIVE_FOLDER + ENDORSES_JSON, JSON.stringify(ENDORSES, null, 2), 'w');
             console.log('Get ' + ENDORSES.length + ' endorses...');
 
             if (ENDORSES.length > 0) {
@@ -54,8 +53,9 @@ function getProjectContent(current) {
             waitFor(
                 function () {
                     endorse = page.evaluate(function () { return idea });
-                    fs.makeDirectory(ARCHIVE_FOLDER + ENDORSES[current].id);
-                    fs.write(ARCHIVE_FOLDER + ENDORSES[current].id + '/endorse.json', JSON.stringify(endorse, null, 2), 'w');
+                    // fs.makeDirectory(ARCHIVE_FOLDER + ENDORSES[current].id);
+                    // fs.write(ARCHIVE_FOLDER + ENDORSES[current].id + '/endorse.json', JSON.stringify(endorse, null, 2), 'w');
+                    ENDORSES[current] = endorse;
                     downloadCSV(ENDORSES[current].id);
                 },
                 function () {
@@ -64,6 +64,7 @@ function getProjectContent(current) {
                         getProjectContent(current + 1);
                     } else {
                         console.log("Get " + ENDORSES.length + " endorses content. Job done.");
+                        fs.write(ARCHIVE_FOLDER + '/' + ENDORSES_JSON, JSON.stringify(ENDORSES, null, 2), 'w');
                         finish();
                     }
                 });
@@ -74,7 +75,7 @@ function getProjectContent(current) {
 function downloadCSV(id) {
     var execFile = process.execFile;
     execFile("curl", ["-XGET", JOIN_SUGGESTION_URL + id], null, function (err, stdout, stderr) {
-    fs.write(ARCHIVE_FOLDER + id + '/' + SUGGESTIONS_CSV, stdout, 'w');
+    fs.write(ARCHIVE_FOLDER + '/' + id + '.csv' , stdout, 'w');
     console.log("execFileSTDERR:", stderr);
     })
 }
