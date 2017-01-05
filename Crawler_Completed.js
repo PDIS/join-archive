@@ -123,5 +123,6 @@ function waitFor(testFx, onReady, timeOutMillis) {
 };
 
 function finish() {
+    fs.write(ARCHIVE_FOLDER + '/UPDATE_TIMESTAMP' , new Date().toLocaleString(), 'w');
     phantom.exit();
 }
