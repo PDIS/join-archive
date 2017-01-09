@@ -134,6 +134,7 @@
     "version": "EndorseStage_2016",
     "videoLink": "",
     "youTubeVideoId": ""
+<<<<<<< HEAD
   },
   {
     "advisedTime": 1484841600000,
@@ -5479,5 +5480,7 @@
     "version": "EndorseStage_2015",
     "videoLink": "",
     "youTubeVideoId": ""
+=======
+>>>>>>> 9b87e11c2527689ffe8b319acc48519a7b984b37
   }
 ]
