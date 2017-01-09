@@ -1,4 +1,4 @@
-const JOIN_URL = 'http://join.gov.tw';
+const JOIN_URL = 'https://join.gov.tw';
 
 const JOIN_COMPLETED_URL = JOIN_URL + '/idea/index/search/COMPLETED?size=2000';
 const JOIN_ENDORSING_URL = JOIN_URL + '/idea/index/search/ENDORSING?size=2000&status=FirstSigned';
