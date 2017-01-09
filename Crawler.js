@@ -84,7 +84,7 @@ function getProjectContent(current) {
                         setTimeout(
                             function() { //不知道為什麼不用function包起來就不會睡...
                                 getProjectContent(current + 1);
-                            }, 1000);
+                            }, 2000);
                     } else {
                         console.log("Get " + ENDORSES.length + " endorses content. Job done.");
                         // 工作完成，把大JSON寫進檔案
