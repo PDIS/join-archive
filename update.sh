@@ -1,4 +1,5 @@
 #!/bin/bash
+set PATH=$PATH:/home/markdai/phantomjs/bin
 rm -rf archive
 phantomjs Crawler.js
 d=$(date +%Y-%m-%dT%H:%M:%S)
