@@ -103,7 +103,7 @@ function getProjectContent(current) {
 
 function downloadCSV(id) {
     var execFile = process.execFile;
-    execFile("curl", ["-XGET","-4", JOIN_SUGGESTION_URL + id], null, function(err, stdout, stderr) {
+    execFile("curl", ["-XGET", "-4", JOIN_SUGGESTION_URL + id], null, function(err, stdout, stderr) {
         fs.write(JOB_FOLDER[JOB_INDEX] + '/' + id + '.csv', stdout, 'w');
         console.log("execFileSTDERR:", stderr);
     })
