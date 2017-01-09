@@ -1,7 +1,7 @@
 const JOIN_URL = 'https://join.gov.tw';
 
-const JOIN_COMPLETED_URL = JOIN_URL + '/idea/index/search/COMPLETED?size=2000';
-const JOIN_ENDORSING_URL = JOIN_URL + '/idea/index/search/ENDORSING?size=2000&status=FirstSigned';
+const JOIN_COMPLETED_URL = JOIN_URL + '/idea/index/search/COMPLETED?size=2';
+const JOIN_ENDORSING_URL = JOIN_URL + '/idea/index/search/ENDORSING?size=2&status=FirstSigned';
 
 const ARCHIVE_FOLDER = 'archive/';
 const COMPLETED_ARCHIVE_FOLDER = ARCHIVE_FOLDER + 'completed/';
