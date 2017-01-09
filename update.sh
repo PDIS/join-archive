@@ -1,4 +1,6 @@
 #!/bin/bash
+cd /home/markdai/join-archive
+
 export PATH=$PATH:/usr/local/git/bin
 export PATH=$PATH:/home/markdai/phantomjs/bin
 git pull
