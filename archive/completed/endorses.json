@@ -4153,7 +4153,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 6049,
+    "endorseCount": 6050,
     "endorseDueDate": 1485705600000,
     "endorseGoal": 5000,
     "endorsePeriodDays": 60,
@@ -5400,7 +5400,7 @@
         "updateDate": 1482142446000
       }
     ],
-    "attentionCount": 255,
+    "attentionCount": 256,
     "caseNumber": "20161219-1099",
     "commentCount": 0,
     "content": "<p class=\"MsoNormal\">&nbsp;</p> \n<p class=\"MsoListParagraph\" style=\"margin-left: 24.0pt; mso-para-margin-left: 0gd; text-indent: -24.0pt; mso-list: l0 level1 lfo1;\">\n <!-- [if !supportLists]--><span style=\"font-size: 24pt;\"><span lang=\"EN-US\">一、</span>\n  <!--[endif]--><span style=\"font-family: '新細明體',serif; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 新細明體; mso-fareast-theme-font: minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin;\">台灣同志諮詢熱線網站連結應從教材中刪除。</span></span></p> \n<p class=\"MsoListParagraph\" style=\"margin-left: 24.0pt; mso-para-margin-left: 0gd; text-indent: -24.0pt; mso-list: l0 level1 lfo1;\"><span style=\"font-size: 24pt;\">\n  <!-- [if !supportLists]--><span lang=\"EN-US\">二、</span>\n  <!--[endif]--><span style=\"font-family: '新細明體',serif; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 新細明體; mso-fareast-theme-font: minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin;\">幼獅出版社之教材已違反兒少福利法第</span><span lang=\"EN-US\">43</span><span style=\"font-family: '新細明體',serif; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 新細明體; mso-fareast-theme-font: minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin;\">條。</span></span></p> \n<p class=\"MsoListParagraph\" style=\"margin-left: 24.0pt; mso-para-margin-left: 0gd; text-indent: -24.0pt; mso-list: l0 level1 lfo1;\"><span style=\"font-size: 24pt;\">\n  <!-- [if !supportLists]--><span lang=\"EN-US\">三、</span>\n  <!--[endif]--><span style=\"font-family: '新細明體',serif; mso-ascii-font-family: Calibri; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: 新細明體; mso-fareast-theme-font: minor-fareast; mso-hansi-font-family: Calibri; mso-hansi-theme-font: minor-latin;\">教育部失職容許該網站入教材。</span></span></p> \n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p> \n<p class=\"MsoNormal\">&nbsp;</p>",
@@ -5477,7 +5477,7 @@
     "sortedAttachments": [],
     "status": "Completed",
     "title": "台灣同志諮詢熱線網站連結應從教材中刪除",
-    "updateDate": 1485269912000,
+    "updateDate": 1485426808000,
     "urgeFlag": false,
     "version": "EndorseStage_2016",
     "videoLink": "",
