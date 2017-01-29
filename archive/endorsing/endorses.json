@@ -2658,7 +2658,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 1863,
+    "endorseCount": 1864,
     "endorseDueDate": 1488902400000,
     "endorseGoal": 5000,
     "endorsePeriodDays": 60,
@@ -2672,7 +2672,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 3137,
+    "needToEndorseCount": 3136,
     "outcome": "<p><span style=\"font-size: 12pt;\">一、提供公務人員自主選擇工作意願的權利與自由。</span></p> \n<p><span style=\"font-size: 12pt;\">二、</span><span style=\"font-size: 16px;\">新</span><span style=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px;\">機關辦理甄審後，可明確確認該甄選人員意願，無須臆測或無奈等待</span><span style=\"font-size: 12pt;\">原服務機關是否同意放人，可如期安排新進人員工作分配與規劃</span><span style=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px;\">。</span></p> \n<p><span style=\"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px;\">三、可讓原服務機關主管定期檢視人員流動率的問題與調整管理方式。</span></p>",
     "outline": "一、有關行政院人事行政局於同年月28日以89局力字第001613號函及銓敘部於民國89年1月13日以89法二字第1836806號函:查「公務人員任用法」第二十二條規定：「各機關不得任用其他機關現職人員。如有特殊需要時，得指名商調之。......」同法施行細則第二十條規定：「本法第二十二條所稱『如有特殊需要時，得指名商調之』，指各機關職務出缺，如因業務需要，需任用其他機關人員時，應經該機關辦理甄審後",
     "proposer": {
@@ -7605,22 +7605,6 @@
       {
         "attachmentDescription": "",
         "attachmentIcon": "",
-        "attachmentName": "課後社團教師勞保加保疑義1000629.PDF",
-        "attachmentParentUid": "",
-        "attachmentPath": "/data/attachment/8a99946d-8b4e-4151-b241-92094b5694f7.PDF",
-        "attachmentType": 1,
-        "attachmentUid": "dceef22a-a8dd-4bd4-8cd6-a3160f53b32f",
-        "attachmentUrl": "/attachments/dceef22a-a8dd-4bd4-8cd6-a3160f53b32f",
-        "baseName": "課後社團教師勞保加保疑義1000629.PDF",
-        "childAttachments": [],
-        "downloadUrl": "/attachments/dceef22a-a8dd-4bd4-8cd6-a3160f53b32f/download/課後社團教師勞保加保疑義1000629.PDF",
-        "fileExtension": "PDF",
-        "sectionUid": "",
-        "updateDate": 1483023294000
-      },
-      {
-        "attachmentDescription": "",
-        "attachmentIcon": "",
         "attachmentName": "相關法條與函釋.pdf",
         "attachmentParentUid": "",
         "attachmentPath": "/data/attachment/26d51a81-f0d0-4c67-9b72-d9291053e7ea.pdf",
@@ -7631,6 +7615,22 @@
         "childAttachments": [],
         "downloadUrl": "/attachments/4c98650d-92bb-4b31-a8ea-51d5d5f51822/download/相關法條與函釋.pdf",
         "fileExtension": "pdf",
+        "sectionUid": "",
+        "updateDate": 1483023294000
+      },
+      {
+        "attachmentDescription": "",
+        "attachmentIcon": "",
+        "attachmentName": "課後社團教師勞保加保疑義1000629.PDF",
+        "attachmentParentUid": "",
+        "attachmentPath": "/data/attachment/8a99946d-8b4e-4151-b241-92094b5694f7.PDF",
+        "attachmentType": 1,
+        "attachmentUid": "dceef22a-a8dd-4bd4-8cd6-a3160f53b32f",
+        "attachmentUrl": "/attachments/dceef22a-a8dd-4bd4-8cd6-a3160f53b32f",
+        "baseName": "課後社團教師勞保加保疑義1000629.PDF",
+        "childAttachments": [],
+        "downloadUrl": "/attachments/dceef22a-a8dd-4bd4-8cd6-a3160f53b32f/download/課後社團教師勞保加保疑義1000629.PDF",
+        "fileExtension": "PDF",
         "sectionUid": "",
         "updateDate": 1483023294000
       }
