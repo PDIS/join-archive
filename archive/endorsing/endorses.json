@@ -8041,7 +8041,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 6,
+    "endorseCount": 7,
     "endorseDueDate": 1492531200000,
     "endorseGoal": 5000,
     "endorsePeriodDays": 60,
@@ -8055,7 +8055,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 4994,
+    "needToEndorseCount": 4993,
     "outcome": "<ul> \n <li></li> \n</ul> \n<p>政府政策境把國人的生命安全置於財團利益與稅收之後！難道政治的目的就只是為了決定財富的流向、為何德國、日本人民可以用比台便宜的車價購入安全性高的車輛？你台灣製車輛剛性與安全配備能跟德製福斯比嗎？能跟日本製馬自達、豐田比嗎？<br>請將200萬台幣以下進口汽車之關稅降至國產車稅率，讓國人享有更安全、更合理價格的購車成本！而不是以財團利益與政府稅收利益為考量！</p>",
     "outline": "德國製汽車、日本製、美國製汽，其安全性均高於台灣國產車，政府應當保護國民安全，鼓勵購買安全性高的汽車，而不是用高於國產車的稅率來保護國產車財團。",
     "proposer": {
