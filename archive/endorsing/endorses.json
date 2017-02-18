@@ -214,7 +214,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 27,
+    "endorseCount": 28,
     "endorseDueDate": 1489939200000,
     "endorseGoal": 5000,
     "endorsePeriodDays": 60,
@@ -228,7 +228,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 4973,
+    "needToEndorseCount": 4972,
     "outcome": "<p>健保有實質的收入分攤高就醫風險人的費用支出，可由家人及經濟上的壓力，迫使吸煙人口降低。</p>",
     "outline": "有鑒於台灣人道德與自我要求薄弱，菸害防治法形同虛設，購菸時的健康捐無實質回饋到健保系統或用於更深化的菸害防治，是加收吸煙者及其同一屋簷下的家人健保費，將這些有高就醫風險的人，多分攤一些受到三手菸四手菸殘害的無吸煙者就醫風險，並實質加註在健保卡上甚至是用特殊色卡發予吸煙者，間接及直接迫使吸煙者戒菸，保護自己，保護家人。",
     "proposer": {
@@ -397,7 +397,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 102,
+    "endorseCount": 103,
     "endorseDueDate": 1492185600000,
     "endorseGoal": 5000,
     "endorsePeriodDays": 60,
@@ -411,7 +411,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 4898,
+    "needToEndorseCount": 4897,
     "outcome": "<p><span style=\"font-size: 12pt;\">最大的利益就是人民可以減少酒駕所造成的死傷。<br><br>透過提高罰則來嚇阻酒駕行為，同時也提高再次考取駕照的門檻甚或無法再次考取駕照，來避免無自制能力的人再次有機會酒駕上路。而販售酒精飲品的相關場所與廠商也應該一同宣導安全的喝酒行為，這可不是在海報廣告上印著「酒後不開車」就算盡到責任了，必需要提供代駕或計程車的資訊，來從源頭減少酒駕的可能。</span></p>",
     "outline": "酒駕是一個可以完全避免的行為，但酒駕者卻明知其危險性，仍酒後操縱著少輒百公斤，多則幾噸重的鋼鐵在道路上威脅著其他人。此種行為根本與預謀殺人一樣，故請修改相關法規，以求人民可以遠離恐懼，讓人們平安回家。A.酒駕駕駛罰則：a.酒駕未肇事：公共危險罪+拘役10日不可易科罰金+罰鍰300,000元+吊銷駕照，三年內不得考照，終身不得再考職業駕照+褫奪公權二年，所有公職解聘。b.酒駕肇事：故意殺人未遂罪刑期",
     "proposer": {
@@ -1318,7 +1318,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 30,
+    "endorseCount": 31,
     "endorseDueDate": 1491580800000,
     "endorseGoal": 5000,
     "endorsePeriodDays": 60,
@@ -1332,7 +1332,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 4970,
+    "needToEndorseCount": 4969,
     "outcome": "<p>開放進口車零關稅，讓台灣中產階級獲得更安全的交通生活，讓不適合的本土車廠強迫進步，或降低售價，或退出市場，最後受益的是人民。</p>",
     "outline": "台灣身為WTO參與國，卻持續對進口汽車實施高關稅壁壘，造成國外為平民高級車的BENZ,BMW,AUDI等車價暴漲ㄧ倍，造成國人以原本應該買到進口車的權利，卻只能到買國產汽車的不平等狀態。政府相關單位卻以\"進口車為有錢人的權利\"塘塞。",
     "proposer": {
@@ -2181,7 +2181,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 5,
+    "endorseCount": 6,
     "endorseDueDate": 1489161600000,
     "endorseGoal": 5000,
     "endorsePeriodDays": 60,
@@ -2195,7 +2195,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 4995,
+    "needToEndorseCount": 4994,
     "outcome": "<p>希望我們的環境可以更美好</p>",
     "outline": "台灣因為少數人缺乏公德心亂丟垃圾,造成風景區及街道的雜亂,希望藉由服勞役的方式,讓亂丟垃圾的民眾親身參與社區的清潔服務或是大型的淨灘活動,了解到垃圾對環境的傷害及造成他人的困擾,可以反省及改善自己的不良習慣",
     "proposer": {
@@ -2584,7 +2584,17 @@
     "advisedTime": "",
     "allowAttention": true,
     "approvalOrganization": {
-      "master": "",
+      "master": {
+        "gpivpAlias": "交通部",
+        "icon": "goi8.jpg",
+        "orgOrder": 900,
+        "orgStatus": true,
+        "organizationId": "315000000H",
+        "organizationName": "交通部",
+        "organizationParent": "",
+        "organizationUid": "4be9e955-575c-11e5-8214-005056814774",
+        "updateDate": 1443593106000
+      },
       "slave": ""
     },
     "approvedDueDate": 1487692799000,
@@ -3379,7 +3389,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 14,
+    "endorseCount": 16,
     "endorseDueDate": 1489161600000,
     "endorseGoal": 5000,
     "endorsePeriodDays": 60,
@@ -3393,7 +3403,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 4986,
+    "needToEndorseCount": 4984,
     "outcome": "<p><span style=\"font-size: 12pt;\">提高檢舉的能量，讓人人都是警察，宣告酒後駕車一定會被抓，結合警政署亦有酒後代駕的預防措施，防止酒後駕駛造成的危害，節省後續社會成本（財務損失，醫療資源，人命無價），定可達陣。</span></p> \n<p>&nbsp;</p>",
     "outline": "防止酒後駕車，賞金獵人快速有效警政署可考慮公佈檢舉程序，製作檢舉酒後架駛行動裝置賞金獵人APP，讓民眾依程序或APP指示照相取證，並通報附近警網前往取締，並依此取得獎金及取得優良巿民等榮譽。檢舉程序可優先公佈，讓民眾適從，讓想要喝酒後駕車者卻步，若能有阻止駕駛的好方法或程序，更能節省社會成本。如開車阻擋酒駕行為，車損由保險或基金理賠等配套措施，或者有讓車子無法作動的方法（取得其鑰匙等）。聽過檢舉達",
     "proposer": {
@@ -4204,7 +4214,17 @@
     "advisedTime": "",
     "allowAttention": true,
     "approvalOrganization": {
-      "master": "",
+      "master": {
+        "gpivpAlias": "交通部",
+        "icon": "goi8.jpg",
+        "orgOrder": 900,
+        "orgStatus": true,
+        "organizationId": "315000000H",
+        "organizationName": "交通部",
+        "organizationParent": "",
+        "organizationUid": "4be9e955-575c-11e5-8214-005056814774",
+        "updateDate": 1443593106000
+      },
       "slave": ""
     },
     "approvedDueDate": 1487433599000,
@@ -4937,7 +4957,17 @@
     "advisedTime": "",
     "allowAttention": true,
     "approvalOrganization": {
-      "master": "",
+      "master": {
+        "gpivpAlias": "交通部",
+        "icon": "goi8.jpg",
+        "orgOrder": 900,
+        "orgStatus": true,
+        "organizationId": "315000000H",
+        "organizationName": "交通部",
+        "organizationParent": "",
+        "organizationUid": "4be9e955-575c-11e5-8214-005056814774",
+        "updateDate": 1443593106000
+      },
       "slave": ""
     },
     "approvedDueDate": 1487692799000,
@@ -5229,7 +5259,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 5,
+    "endorseCount": 6,
     "endorseDueDate": 1492531200000,
     "endorseGoal": 5000,
     "endorsePeriodDays": 60,
@@ -5243,7 +5273,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "<a href='http://tb0033.com/bbs/content.php?co_id=product1'  title='另開視窗前往韓國ETI公司滾輪護欄官方網站'  target='_blank' >韓國ETI公司滾輪護欄官方網站</a>",
-    "needToEndorseCount": 4995,
+    "needToEndorseCount": 4994,
     "outcome": "<ol> \n <li>有人說這次發生蝶戀花旅行社遊覽車事故起因為駕駛人力、車體安全結構、制度管理等共犯結構，難道是說台灣所訂立的「汽車運輸業管理規則」針對遊覽車管理規定是無效果的制度嗎？倘若能在道路系統上增加安全設施，應更能減少事故所帶來的傷亡率，這是為減少社會成本必須要引進的技術。</li> \n <li>馬來西亞拿督尤瑟夫（Datuk Seri Fadillah Yusof）表示，馬來西亞一直在尋找能夠保護道路使用者安全的新技術，他們發現韓國ETI公司研發的「滾輪護欄」（Roller System）能夠發揮和傳統水泥護欄不同的保護效果，目前工程部從Taebaek Co. Ltd引進該滾輪護欄系統，於2016年10月安裝在SUBANG的車禍高風險區，安裝該系統費用約為每一百米US$35,000，大約是馬幣$147,512。</li> \n <li>目前歐盟國家考慮採用此項技術。</li> \n</ol>",
     "outline": "蝶戀花旅行社的遊覽車，13日自武陵賞櫻完回台北的路程，晚間九點多卻在國道五號連接國道三號的彎道發生翻覆意外，全車包含司機共44人而其中32人不幸罹難，除了遊覽車車齡、車輛狀況、乘客未依規定繫安全帶之外，駕駛是否為疲勞駕駛也受到關注。南韓廠商研發出一款「滾輪護欄」，它能夠將撞擊變成旋轉的力量，並調整車子滑行的方向，將失去控制的車子導引回路面，避免造成更多的傷害。這組滾輪護欄的高度約96公分，上面還塗",
     "proposer": {
@@ -5465,7 +5495,17 @@
     "advisedTime": "",
     "allowAttention": true,
     "approvalOrganization": {
-      "master": "",
+      "master": {
+        "gpivpAlias": "交通部",
+        "icon": "goi8.jpg",
+        "orgOrder": 900,
+        "orgStatus": true,
+        "organizationId": "315000000H",
+        "organizationName": "交通部",
+        "organizationParent": "",
+        "organizationUid": "4be9e955-575c-11e5-8214-005056814774",
+        "updateDate": 1443593106000
+      },
       "slave": ""
     },
     "approvedDueDate": 1487692799000,
@@ -5483,7 +5523,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 43,
+    "endorseCount": 44,
     "endorseDueDate": 1491753600000,
     "endorseGoal": 5000,
     "endorsePeriodDays": 60,
@@ -5497,7 +5537,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 4957,
+    "needToEndorseCount": 4956,
     "outcome": "<p>1.地方政府能夠得到更多的經費</p> \n<p>2.可改善各種交通違規問題</p> \n<p>&nbsp;</p>",
     "outline": "在臺灣各條大街小巷有著屢見不興的紅線停車、路邊違停等等的交通違規，一路開過去就不知道有幾件，每天更是因為闖紅燈、違停等等交通違規發生了許多車禍事件，我們在路上每天都會碰到許多的交通違規，但因為檢舉違規沒有檢舉獎金，所以民眾往往抱著多一事不如少一事的心態，只要我平安過去就好，大家一起鄉聳，到時候發生車禍又在怨天怨地的，這是所有臺灣人的共業，因為大家都漠視所以大家都有錯。而檢舉獎金的發放能大幅改善交通",
     "proposer": {
@@ -5605,7 +5645,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 127,
+    "endorseCount": 129,
     "endorseDueDate": 1491926400000,
     "endorseGoal": 5000,
     "endorsePeriodDays": 60,
@@ -5619,7 +5659,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 4873,
+    "needToEndorseCount": 4871,
     "outcome": "<p>「睡眠呼吸中止症」有可能在睡眠中去世，睡眠呼吸中止症(OSA)患者罹患慢性病機率提升300%且恐短命近二十年，</p> \n<p>睡眠呼吸中止症(OSA)是因人在睡眠中，原先固定和撐開咽喉的肌肉鬆弛，堵住呼吸道以致呼吸困難，甚至可能因氣道完全堵塞而窒息，最明顯症狀即為打鼾，嚴重者在睡覺當中甚至會停止呼吸。根據國外學者研究【註1】指出，OSA患者罹患高血壓機率比一般人多1.4至 3.1 倍、心血管疾病為1.3至2.3 倍、心臟衰竭也提升至2.4倍，以及中風率增加到1.6倍；且因OSA導致睡眠不足而發生車禍的比率更是高達8倍。同研究也發現，在1,522名受試者當中，OSA患者在往後18年存活下來的機率比無OSA的一般人大幅下跌將近30%，顯示OSA患者不只有更高的慢性疾病罹患率，更具潛在的生命威脅。</p> \n<p>&nbsp;</p> \n<p>睡眠呼吸中止症除了反覆性的睡眠中斷使得睡眠品質不佳外，反覆性的睡眠中斷與血氧不足，會引發心臟負荷增加，因此睡眠呼吸中止症患者罹患高血壓、心肌梗塞、心絞痛的比率高於一般人。在精神認知方面的影響，由於夜間未獲良好的睡眠，易導致日間精神渙散、嗜睡、注意力不集中、認知與記憶力大幅減退，相對的，由於日間精神不佳、容易打瞌睡，發生交通事故與工作意外的比例也高。</p> \n<p>另有一案審核未通過之回覆如下</p> \n<p>(一)「單項陽壓呼吸器 (C－PAP)」佔醫療輔具補助資源大宗。<br>(二)屬疾病範疇，經呼吸器治療後，該障礙情形可改善，易造成未來風險之疾病，應積極治療。<br>(三)無實質性障礙狀態，且其生活功能、社經地位均優於其他類身心障礙者。<br>新制身心障礙(ICF)基準，係以身體結構及功能、活動參與及環境因素進行判定，係以障礙是否影響生活，而非單以疾病為鑑定依據，經綜合考量後，予以刪除。<br>因此本案不進入附議。</p> \n<p>&nbsp;</p> \n<p><strong><span style=\"font-size: 14pt;\">第一點提到，單項陽壓呼吸器 (C－PAP)」佔醫療輔具補助資源大宗。每人只能申請補助一次，患者也須自行負擔數萬元不等的金額，可見是真的需要的人才會進行購買及申請補助。政府這時不是更應該幫助需要幫助的民眾？</span></strong></p> \n<p><strong><span style=\"font-size: 14pt;\">第二點提到，經呼吸器治療後，該障礙情形可改善，但前提是仍必須持續使用呼吸器，並無法完全治療。</span></strong></p> \n<p><strong><span style=\"font-size: 14pt;\">第三點提到，係以身體結構及功能、活動參與及環境因素進行判定，係以障礙是否影響生活，而非單以疾病為鑑定依據。</span></strong></p> \n<p><strong><span style=\"font-size: 14pt;\">睡眠呼吸中止症的病患，由於日間精神不佳、容易打瞌睡，發生交通事故與工作意外的比例也高，明顯的影響到生活。</span></strong></p> \n<p><strong><span style=\"font-size: 14pt;\">難道生活功能、社經地位均優於其他類身心障礙者，就不能算是身心障礙？</span></strong></p> \n<p>&nbsp;</p> \n<p><span style=\"font-size: 24pt;\"><strong>強烈建議將「睡眠呼吸中止症」重新納入身心障礙</strong></span></p>",
     "outline": "提議內容或建議事項衛生福利部已於昨日發布修正案，正式取消睡眠呼吸中止身心障礙。發布修正條文106年1月5日，自發布日90日後實施，106年4月5日起實施新制。※政府單位公告資訊：http://ppt.cc/ilaT3點選【行政院公報】之連結後，會出現衛生福利部令106年1月5日衛部照字第1051564595號，修正「身心障礙者鑑定作業辦法」第十三條及第四條附表一、第五條附表二、附表三。一、依修正總",
     "proposer": {
@@ -6848,7 +6888,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 1781,
+    "endorseCount": 1786,
     "endorseDueDate": 1489766400000,
     "endorseGoal": 5000,
     "endorsePeriodDays": 60,
@@ -6862,7 +6902,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "<a href='https://goo.gl/PKW19R'  title='另開視窗前往1.完整版起草「計畫管理法案臺灣版」建言書'  target='_blank' >1.完整版起草「計畫管理法案臺灣版」建言書</a>;<a href='https://www.congress.gov/114/bills/s1550/BILLS-114s1550enr.pdf'  title='另開視窗前往2.美國國會 31 U.S.C. § 1550 PMIAA（Program Management Improvement Accountability Act） 法案原文網址'  target='_blank' >2.美國國會 31 U.S.C. § 1550 PMIAA（Program Management Improvement Accountability Act） 法案原文網址</a>;<a href='https://goo.gl/odycWW'  title='另開視窗前往3.PMIAA 專案集(政府稱之為計畫)管理改進責任法案 英中對照版本'  target='_blank' >3.PMIAA 專案集(政府稱之為計畫)管理改進責任法案 英中對照版本</a>;<a href='https://www.youtube.com/watch?v=PSc-hMD6D9o'  title='另開視窗前往4.[年代專題報導] 歡慶專案管理國家標準CNS 21500 誕生'  target='_blank' >4.[年代專題報導] 歡慶專案管理國家標準CNS 21500 誕生</a>;<a href='https://sites.google.com/site/twpmiaa/'  title='另開視窗前往5.起草計畫管理法案Scrum專案 志工協作平台'  target='_blank' >5.起草計畫管理法案Scrum專案 志工協作平台</a>",
-    "needToEndorseCount": 3219,
+    "needToEndorseCount": 3214,
     "outcome": "<p>利益：</p> \n<p>一、為政府重大計畫把關以及進行系統性評估，避免啟動無效益的計畫；</p> \n<p>二、提升大型計畫案執行效率，於行政機關間「分享與傳承」經驗學習；</p> \n<p>三、避免執行國家大量預算費用卻沒有結果之風險；</p> \n<p>四、善用專案管理專業人士（專業的事情，由專業的人才為之）;</p> \n<p>五、媲美大型企業成立專案辦公室的現代管理方式。</p> \n<p><br>影響：</p> \n<p>一、預先評估政府短、中、長程之施政計畫目標無法達成之風險。</p> \n<p>二、先行制定及評估政府短、中、長程之施政計畫目標不能如期如質如度達成之風險管理對策</p> \n<p>三、分析政府短、中、長程之施政計畫目標實行效益。</p> \n<p>四、建立政府短、中、長程之施政計畫目標效益不佳退場機制。</p> \n<p>五、針對政府機關人員實行短、中、長程之施政計畫目標應盡責任進行完善輔導與監理。</p> \n<p><br>臺灣有許多工期延宕或品質未達水準的大型專案，都是橫跨好幾位總統任期，這已不是國家領導人的能力問題，而是我們真的缺乏一套有效的大型計畫管理制度！</p> \n<p>&nbsp;</p>",
     "outline": "美國白宮在2016/12/14由總統簽署並頒布，美國國會僅討論一年半時間，參、眾兩院隨即無異議通過立法的PMIAA（ProgramManagementImprovementAccountabilityAct）「專案集(政府稱之為計畫)管理改進責任」法案（31U.S.C.§1550）。該法案獲國會與白宮一致性地認同與採用「系統性管理標準」（PMO，專案管理辦公室概念）建立機制，要求聯邦政府機關遵守專",
     "proposer": {
@@ -7510,7 +7550,17 @@
     "advisedTime": "",
     "allowAttention": true,
     "approvalOrganization": {
-      "master": "",
+      "master": {
+        "gpivpAlias": "交通部",
+        "icon": "goi8.jpg",
+        "orgOrder": 900,
+        "orgStatus": true,
+        "organizationId": "315000000H",
+        "organizationName": "交通部",
+        "organizationParent": "",
+        "organizationUid": "4be9e955-575c-11e5-8214-005056814774",
+        "updateDate": 1443593106000
+      },
       "slave": ""
     },
     "approvedDueDate": 1487692799000,
@@ -7616,7 +7666,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 1361,
+    "endorseCount": 1363,
     "endorseDueDate": 1491580800000,
     "endorseGoal": 5000,
     "endorsePeriodDays": 60,
@@ -7630,7 +7680,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "<a href='https://www.facebook.com/PublicHealthNote/photos/a.1765406033701567.1073741828.1754015544840616/1765406723701498/?type=3&theater'  title='另開視窗前往衛生所到底在忙什麼？(衛生所辛苦之處詳見留言區)'  target='_blank' >衛生所到底在忙什麼？(衛生所辛苦之處詳見留言區)</a>;<a href='https://www.facebook.com/PublicHealthNote/photos/a.1765406033701567.1073741828.1754015544840616/1776029695972534/?type=3'  title='另開視窗前往篩檢工作的重要性！(不能不知!!)'  target='_blank' >篩檢工作的重要性！(不能不知!!)</a>;<a href='https://www.facebook.com/PublicHealthNote/photos/a.1765406033701567.1073741828.1754015544840616/1782762038632633/?type=3'  title='另開視窗前往發生率/盛行率：疾病發生的重要指標 [衛生所最重要的工作就是防範疾病發生!!]'  target='_blank' >發生率/盛行率：疾病發生的重要指標 [衛生所最重要的工作就是防範疾病發生!!]</a>",
-    "needToEndorseCount": 3639,
+    "needToEndorseCount": 3637,
     "outcome": "<p>&nbsp;</p> \n<p><span style=\"font-size: 14pt;\"><strong><span style=\"font-size: 18pt;\">《衛生所存在的危勞職務風險》</span><span style=\"font-size: 12pt;\">(完整版請見附件)</span></strong></span></p> \n<p>&nbsp;</p> \n<p><span style=\"font-size: 14pt;\"><strong>&nbsp;一、人力不足</strong></span></p> \n<ul> \n <li><span style=\"font-size: 14pt;\">全國衛生所護理人員編制僅不到3000人，要負責全國2300萬人口的社區健康照顧工作，平均每人負擔七八千的人口，甚至有都會區的衛生所每護理人員超過萬人的服務人口，在各縣市政府經費人力控管下，人力遲遲未能擴編。世界衛生組織建議服務人口應以2000為宜。</span></li> \n <li><span style=\"font-size: 14pt;\">衛生局指定的工作執行量經常依據人口數訂定，隨著早期傳染病被控制、醫療保健趨完善而延長的平均餘命，人口持續不斷增加，在人力無法增加的情況下，是衛生所無形中增加的繁重的照顧負擔。</span></li> \n <li><span style=\"font-size: 14pt;\">尚有許多非護理專業工作加諸在我們之上，如：人事、會計、總務、採購、政風、財管、資訊、公文管理、出納、企劃、研考、生命統計等工作，讓我們無法有充裕時間人力可以好好發揮護理專長，提升全體國民健康素質。</span></li> \n</ul> \n<p>&nbsp;</p> \n<p><span style=\"font-size: 14pt;\"><strong>&nbsp;二、加班、超時工作成為常態</strong></span></p> \n<ul> \n <li><span style=\"font-size: 14pt;\">白天八小時的例行工作，還要配合晚上或假日篩檢或宣導工作。</span></li> \n <li><span style=\"font-size: 14pt;\">每當夜間或假日的天災影響冷藏疫苗的冰箱發報異常，連忙緊急趕到衛生所處理打包後送事宜。</span></li> \n <li><span style=\"font-size: 14pt;\">尤其遇到大型傳染病疫情事件爆發，如當年的SARS、台南高雄的登革熱或是大量食物中毒、校園結核病接觸者調查，或是每年十月流感疫苗開打，幾乎排擠常規業務的工作時間，責任制的壓力下，加班勢必成了常態。</span></li> \n</ul> \n<p>&nbsp;</p> \n<p><span style=\"font-size: 14pt;\"><strong>&nbsp;三、工作量大而複雜性和困難度高</strong></span></p> \n<ul> \n <li><span style=\"font-size: 14pt;\">各縣市衛生局為了配合健康意識新時代需求，不斷提出新的創新服務，衛生所是各鄉鎮執行的重要推手，舊的業務仍在、新的業務不斷推陳出新，即使窒礙難行也必須想盡各種辦理的管道配合辦理，使衛生所工作挑戰逐年再增加，也讓能資深人力無法勝任而快速流失。</span></li> \n <li><span style=\"font-size: 14pt;\">全國每年通報結核病通報列管個案數超過1萬人，除了依據疾管署規定例行性的追蹤管理，遇到有不配合就醫、服藥、校園或職場疫情調查、甚至抗拒接觸者檢查及追蹤者，每每都要花費我們大量的時間和精力。</span></li> \n <li><span style=\"font-size: 14pt;\">全國由衛生所精神病列管社區訪視個案數超過14萬人，衛福部規定平均每案要求每年要訪視4~5次，還要求要近一半的家訪率。</span></li> \n</ul> \n<ul> \n <li><span style=\"font-size: 14pt;\">訪視工作對偏遠或交通不便的地區衛生所，在執行保健宣導和疾病管理的人力成本和困難度更非都會區可理解。</span></li> \n <li><span style=\"font-size: 14pt;\">社區民眾的素質不一，敏感對象的訪視可能面臨到的暴力攻擊，尚缺乏足夠保護和因應措施。</span></li> \n</ul> \n<p><br><span style=\"font-size: 14pt;\">&nbsp;<strong>四、業務推動規劃、負擔醫療門診及社區工作，需要更多腦力、體力和視力負荷</strong></span></p> \n<p><span style=\"font-size: 14pt;\"><strong>&nbsp;五、非單純僅室內工作職場環境，多變而風險高</strong></span></p> \n<p><span style=\"font-size: 14pt;\"><strong>&nbsp;六、 無時無刻需要處理各種衛生局交辦或民眾申請之突發狀況</strong></span></p> \n<p><span style=\"font-size: 14pt;\"><strong>&nbsp;七、職業災害的風險高</strong></span></p> \n<p><span style=\"font-size: 14pt;\"><strong>&nbsp;八、民眾照顧服務要求越來越高</strong></span></p> \n<p><span style=\"font-size: 14pt;\"><strong>&nbsp;九、社區服務對象從幼到老，健康照顧方案需要有新血加入推陳出新</strong></span></p> \n<p><span style=\"font-size: 14pt;\">&nbsp;</span></p> \n<p><span style=\"font-size: 18pt;\"><strong>肯請支持將衛生所護士及護理師納入適用危勞職務之列！</strong></span></p> \n<p><span style=\"font-size: 18pt;\"><strong>讓我們衛生所的健全，才能創造全民健康福祉，免於疾病的威脅，減輕醫療機構人力負擔！</strong></span></p> \n<p>&nbsp;</p>",
     "outline": "每年十月份施打的流感疫苗，衛生所必定全所動員、深入社區和學校及辦公職場，提供就近便利的照顧，完成撐開民眾疾病保護傘的任務。去年在疾管署大聲疾呼下，擴大疫苗補助施打的對象，普及率從全國13%增加到25%，衛生所十二月又再次大批出動到社區再提供擴大施打對象完成接種工作，直到一月份完成全部任務，事實上這樣的工作量要求人力並沒有因此而增加。而且，這僅僅是衛生所眾多業務的其中一項而已。衛福部單位的各項疾病與",
     "proposer": {
