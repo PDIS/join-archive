@@ -14,20 +14,21 @@ const ENDORSES_JSON = 'endorses.json';
 const JOB_URL = [JOIN_COMPLETED_URL, JOIN_ENDORSING_URL];
 const JOB_FOLDER = [COMPLETED_ARCHIVE_FOLDER, ENDORSING_ARCHIVE_FOLDER];
 
+const GOV_DAY = 60;
+const ENDORSE_COUNT = 5000;
 /* Rocket.Chat Bot Configuration below */
 const CONF_FILE = 'Crawler.conf';
 /* webkey uri before # + /hooks/ + Webhook Token */
 const ROCKETCHAT_WEBHOOK_URL = 'rocketchatWebhookUrl';
 /* webkey uri after # */
 const BEARER_TOKEN = 'bearerToken';
-/* bot hours */
-const BOT_HOURS = 'botHours';
-const GOV_DAY = 60;
-const ENDORSE_COUNT = 5000;
+/* bot exec hours */
+const CRON_HOURS = 'cronHours';
 const GOV_NOTIFY_DAY = 'govNotifyDay';
 const ENDORSE_NOTIFY_COUNT = 'endorseNotifyCount';
 const CHANNEL = 'channel';
 const USERNAME = 'username';
+const APPROVED_NOTIFY_HOURS = 'approvedNotifyHours';
 
 var system = require('system');
 var page = require('webpage').create();
@@ -38,18 +39,19 @@ var ENDORSES = [];
 
 var GOOD_MSG;
 var fConfig = null;
-var today = new Date();
-var hours = today.getHours();
+var now = new Date();
+var hours = now.getHours();
+var today = now.setHours(0, 0, 0, 0);
 
-today.setHours(0, 0, 0, 0);
 init();
-console.log(BOT_HOURS + ":" + config(BOT_HOURS));
+console.log(CRON_HOURS + ":" + config(CRON_HOURS));
 console.log(BEARER_TOKEN + ":" + config(BEARER_TOKEN));
 console.log(ROCKETCHAT_WEBHOOK_URL + ":" + config(ROCKETCHAT_WEBHOOK_URL));
 console.log(GOV_NOTIFY_DAY + ":" + config(GOV_NOTIFY_DAY));
 console.log(ENDORSE_NOTIFY_COUNT + ":" + config(ENDORSE_NOTIFY_COUNT));
 console.log(CHANNEL + ":" + config(CHANNEL));
 console.log(USERNAME + ":" + config(USERNAME));
+console.log(APPROVED_NOTIFY_HOURS + ":" + config(APPROVED_NOTIFY_HOURS));
 
 page.viewportSize = { width: 1024, height: 768 };
 
@@ -131,15 +133,19 @@ function getProjectContent(current) {
                     // idea也是JOIN工程師留的禮物ＸＤ，集中放到ENDORSE變數，最後存成一個大JSON
                     endorse = page.evaluate(function() { return idea });
                     ENDORSES[current] = endorse;
-                    if (hours == config(BOT_HOURS)) {
-                        if (JOB_INDEX == 0 && ((today.valueOf() - ENDORSES[current].secondSignedTime)/(1000*60*60*24)).toFixed() >= (GOV_DAY - config(GOV_NOTIFY_DAY))) {
-                            console.log("機關回應倒數 " + (GOV_DAY - ((today.valueOf() - ENDORSES[current].secondSignedTime)/(1000*60*60*24)).toFixed()) + " 天(" + ENDORSES[current].approvalOrganization.master.organizationName  + "): " + ENDORSES[current].title);
-                            GOOD_MSG += encodeURIComponent("機關回應倒數 " + (GOV_DAY - ((today.valueOf() - ENDORSES[current].secondSignedTime)/(1000*60*60*24)).toFixed()) + " 天(" + ENDORSES[current].approvalOrganization.master.organizationName  + "): " + ENDORSES[current].title) + "\\n";
+                    if (hours == config(CRON_HOURS)) {
+                        if (JOB_INDEX == 0 && ((today.valueOf() - ENDORSES[current].secondSignedTime)/(3600000*24)).toFixed() >= (GOV_DAY - config(GOV_NOTIFY_DAY))) {
+                            console.log("機關回應倒數 " + (GOV_DAY - ((today.valueOf() - ENDORSES[current].secondSignedTime)/(3600000*24)).toFixed()) + " 天(" + ENDORSES[current].approvalOrganization.master.organizationName  + "): " + ENDORSES[current].title);
+                            GOOD_MSG += encodeURIComponent("機關回應倒數 " + (GOV_DAY - ((today.valueOf() - ENDORSES[current].secondSignedTime)/(3600000*24)).toFixed()) + " 天(" + ENDORSES[current].approvalOrganization.master.organizationName  + "): [" + ENDORSES[current].title) + "](" + JOIN_DETAIL_URL + ENDORSES[current].id + ")\\n";
                         }
                         if (JOB_INDEX == 1 && ENDORSES[current].endorseCount >= config(ENDORSE_NOTIFY_COUNT)) {
                             console.log("附議通過剩餘 " + (ENDORSE_COUNT - ENDORSES[current].endorseCount) + " 個: " + ENDORSES[current].title);
-                            GOOD_MSG += encodeURIComponent("附議通過剩餘 " + (ENDORSE_COUNT - ENDORSES[current].endorseCount) + " 個: " + ENDORSES[current].title) + "\\n";
+                            GOOD_MSG += encodeURIComponent("附議通過剩餘 " + (ENDORSE_COUNT - ENDORSES[current].endorseCount) + " 個: [" + ENDORSES[current].title) + "](" + JOIN_DETAIL_URL + ENDORSES[current].id + ")\\n";
                         }
+                        if (JOB_INDEX == 1 && (now.valueOf() - ENDORSES[current].approvedTime) <= config(APPROVED_NOTIFY_HOURS)*3600000) {
+                            console.log(new Date(ENDORSES[current].approvedTime).toISOString().substring(0,10) + " 進入附議階段: " + ENDORSES[current].title);
+                            GOOD_MSG += encodeURIComponent(new Date(ENDORSES[current].approvedTime).toISOString().substring(0,10) + " 進入附議階段: [" + ENDORSES[current].title) + "](" + JOIN_DETAIL_URL + ENDORSES[current].id + ")\\n";
+                        }                        
                     }                    
                     //但是對每個提案，個別下載附議名單
                     downloadCSV(ENDORSES[current].id);
