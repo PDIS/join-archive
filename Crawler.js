@@ -14,12 +14,44 @@ const ENDORSES_JSON = 'endorses.json';
 const JOB_URL = [JOIN_COMPLETED_URL, JOIN_ENDORSING_URL];
 const JOB_FOLDER = [COMPLETED_ARCHIVE_FOLDER, ENDORSING_ARCHIVE_FOLDER];
 
+const GOV_DAY = 60;
+const ENDORSE_COUNT = 5000;
+/* Rocket.Chat Bot Configuration below */
+const CONF_FILE = 'Crawler.conf';
+/* webkey uri before # + /hooks/ + Webhook Token */
+const ROCKETCHAT_WEBHOOK_URL = 'rocketchatWebhookUrl';
+/* webkey uri after # */
+const BEARER_TOKEN = 'bearerToken';
+/* bot exec hours */
+const CRON_HOURS = 'cronHours';
+const GOV_NOTIFY_DAY = 'govNotifyDay';
+const ENDORSE_NOTIFY_COUNT = 'endorseNotifyCount';
+const CHANNEL = 'channel';
+const USERNAME = 'username';
+const APPROVED_NOTIFY_HOURS = 'approvedNotifyHours';
+
 var system = require('system');
 var page = require('webpage').create();
 var fs = require('fs');
 var process = require("child_process");
 var JOB_INDEX = 0;
 var ENDORSES = [];
+
+var GOOD_MSG;
+var fConfig = null;
+var now = new Date();
+var hours = now.getHours();
+var today = now.setHours(0, 0, 0, 0);
+
+init();
+console.log(CRON_HOURS + ":" + config(CRON_HOURS));
+console.log(BEARER_TOKEN + ":" + config(BEARER_TOKEN));
+console.log(ROCKETCHAT_WEBHOOK_URL + ":" + config(ROCKETCHAT_WEBHOOK_URL));
+console.log(GOV_NOTIFY_DAY + ":" + config(GOV_NOTIFY_DAY));
+console.log(ENDORSE_NOTIFY_COUNT + ":" + config(ENDORSE_NOTIFY_COUNT));
+console.log(CHANNEL + ":" + config(CHANNEL));
+console.log(USERNAME + ":" + config(USERNAME));
+console.log(APPROVED_NOTIFY_HOURS + ":" + config(APPROVED_NOTIFY_HOURS));
 
 page.viewportSize = { width: 1024, height: 768 };
 
@@ -30,6 +62,32 @@ console.log("Crawling Start ...")
 fs.makeDirectory(ARCHIVE_FOLDER);
 
 execute();
+
+function init() {
+    if (!fs.isFile(CONF_FILE)) {
+        var f = fs.open(CONF_FILE, "w");
+        f.write('{}');
+        f.close();
+    }
+    var confFile = fs.open(CONF_FILE, 'r');
+    var readData = confFile.read();
+    if (readData[0] != '{') {
+        fConfig = {};
+    } else {
+        fConfig = JSON.parse(readData);
+    }
+    confFile.close();
+}
+
+function config(key, value) {
+    if (value === undefined) {
+        return fConfig[key];
+    }
+    fConfig[key] = value;
+    var f = fs.open(CONF_FILE, 'w');
+    f.write(JSON.stringify(fConfig));
+    f.close();
+}
 
 // 執行每一項工作，目前工作有「已完成附議的議題」與「附議中的議題」
 function execute() {
@@ -51,6 +109,7 @@ function execute() {
             console.log('Get ' + ENDORSES.length + ' endorses...');
 
             if (ENDORSES.length > 0) {
+                GOOD_MSG = '';
                 getProjectContent(0);
             } else {
                 console.log('Something wrong, no project on list');
@@ -74,6 +133,20 @@ function getProjectContent(current) {
                     // idea也是JOIN工程師留的禮物ＸＤ，集中放到ENDORSE變數，最後存成一個大JSON
                     endorse = page.evaluate(function() { return idea });
                     ENDORSES[current] = endorse;
+                    if (hours == config(CRON_HOURS)) {
+                        if (JOB_INDEX == 0 && ((today.valueOf() - ENDORSES[current].secondSignedTime)/(3600000*24)).toFixed() >= (GOV_DAY - config(GOV_NOTIFY_DAY))) {
+                            console.log("機關回應倒數 " + (GOV_DAY - ((today.valueOf() - ENDORSES[current].secondSignedTime)/(3600000*24)).toFixed()) + " 天(" + ENDORSES[current].approvalOrganization.master.organizationName  + "): " + ENDORSES[current].title);
+                            GOOD_MSG += encodeURIComponent("機關回應倒數 " + (GOV_DAY - ((today.valueOf() - ENDORSES[current].secondSignedTime)/(3600000*24)).toFixed()) + " 天(" + ENDORSES[current].approvalOrganization.master.organizationName  + "): [" + ENDORSES[current].title) + "](" + JOIN_DETAIL_URL + ENDORSES[current].id + ")\\n";
+                        }
+                        if (JOB_INDEX == 1 && ENDORSES[current].endorseCount >= config(ENDORSE_NOTIFY_COUNT)) {
+                            console.log("附議通過剩餘 " + (ENDORSE_COUNT - ENDORSES[current].endorseCount) + " 個: " + ENDORSES[current].title);
+                            GOOD_MSG += encodeURIComponent("附議通過剩餘 " + (ENDORSE_COUNT - ENDORSES[current].endorseCount) + " 個: [" + ENDORSES[current].title) + "](" + JOIN_DETAIL_URL + ENDORSES[current].id + ")\\n";
+                        }
+                        if (JOB_INDEX == 1 && (now.valueOf() - ENDORSES[current].approvedTime) <= config(APPROVED_NOTIFY_HOURS)*3600000) {
+                            console.log(new Date(ENDORSES[current].approvedTime).toISOString().substring(0,10) + " 進入附議階段: " + ENDORSES[current].title);
+                            GOOD_MSG += encodeURIComponent(new Date(ENDORSES[current].approvedTime).toISOString().substring(0,10) + " 進入附議階段: [" + ENDORSES[current].title) + "](" + JOIN_DETAIL_URL + ENDORSES[current].id + ")\\n";
+                        }                        
+                    }                    
                     //但是對每個提案，個別下載附議名單
                     downloadCSV(ENDORSES[current].id);
                 },
@@ -89,6 +162,9 @@ function getProjectContent(current) {
                         console.log("Get " + ENDORSES.length + " endorses content. Job done.");
                         // 工作完成，把大JSON寫進檔案
                         fs.write(JOB_FOLDER[JOB_INDEX] + '/' + ENDORSES_JSON, JSON.stringify(ENDORSES, null, 2), 'w');
+                        if (GOOD_MSG.length > 0) {
+                            webhookRocketChat(GOOD_MSG.slice(0, -2));
+                        }
                         // 休息10秒後，繼續下一個工作
                         setTimeout(
                             function() {
@@ -107,6 +183,20 @@ function downloadCSV(id) {
         fs.write(JOB_FOLDER[JOB_INDEX] + '/' + id + '.csv', stdout, 'w');
         console.log("execFileSTDERR:", stderr);
     })
+}
+
+function webhookRocketChat(msg) {
+    var data = 'payload={"channel":"' + config(CHANNEL) + '","username":"' + config(USERNAME) + '","text":"' + msg + '"}';
+    var headers = {
+        "Authorization": ("Bearer " + config(BEARER_TOKEN))
+    };
+    page.open(config(ROCKETCHAT_WEBHOOK_URL), 'post', data, headers, function(status) {
+        if (status !== 'success') {
+            console.log('Unable to post!');
+        } else {
+            console.log(page.content);
+        }
+    });
 }
 
 function cleanObject(object) {
