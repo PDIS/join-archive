@@ -134,7 +134,7 @@ function getProjectContent(current) {
                     endorse = page.evaluate(function() { return idea });
                     ENDORSES[current] = endorse;
                     if (hours == config(CRON_HOURS)) {
-                        if (JOB_INDEX == 0 && ((today.valueOf() - ENDORSES[current].secondSignedTime)/(3600000*24)).toFixed() >= (GOV_DAY - config(GOV_NOTIFY_DAY))) {
+                        if (JOB_INDEX == 0 && ENDORSES[current].govResponses.length == 0 && ((today.valueOf() - ENDORSES[current].secondSignedTime)/(3600000*24)).toFixed() >= config(GOV_NOTIFY_DAY)) {
                             console.log("機關回應倒數 " + (GOV_DAY - ((today.valueOf() - ENDORSES[current].secondSignedTime)/(3600000*24)).toFixed()) + " 天(" + ENDORSES[current].approvalOrganization.master.organizationName  + "): " + ENDORSES[current].title);
                             GOOD_MSG += encodeURIComponent("機關回應倒數 " + (GOV_DAY - ((today.valueOf() - ENDORSES[current].secondSignedTime)/(3600000*24)).toFixed()) + " 天(" + ENDORSES[current].approvalOrganization.master.organizationName  + "): [" + ENDORSES[current].title) + "](" + JOIN_DETAIL_URL + ENDORSES[current].id + ")\\n";
                         }
