@@ -5502,7 +5502,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 5128,
+    "endorseCount": 5129,
     "endorseDueDate": 1488297600000,
     "endorseGoal": 5000,
     "endorsePeriodDays": 60,
