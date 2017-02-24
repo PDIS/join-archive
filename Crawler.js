@@ -37,7 +37,9 @@ var process = require("child_process");
 var JOB_INDEX = 0;
 var ENDORSES = [];
 
-var GOOD_MSG;
+var GOOD_MSG0 = '';
+var GOOD_MSG1_ENDORSE = '';
+var GOOD_MSG1_APPROVED = '';
 var fConfig = null;
 var now = new Date();
 var hours = now.getHours();
@@ -109,7 +111,9 @@ function execute() {
             console.log('Get ' + ENDORSES.length + ' endorses...');
 
             if (ENDORSES.length > 0) {
-                GOOD_MSG = '';
+                GOOD_MSG0 = "";
+                GOOD_MSG1_ENDORSE = "";
+                GOOD_MSG1_APPROVED = "";
                 getProjectContent(0);
             } else {
                 console.log('Something wrong, no project on list');
@@ -136,15 +140,15 @@ function getProjectContent(current) {
                     if (hours == config(CRON_HOURS)) {
                         if (JOB_INDEX == 0 && ENDORSES[current].govResponses.length == 0 && ((today.valueOf() - ENDORSES[current].secondSignedTime)/(3600000*24)).toFixed() >= config(GOV_NOTIFY_DAY)) {
                             console.log("機關回應倒數 " + (GOV_DAY - ((today.valueOf() - ENDORSES[current].secondSignedTime)/(3600000*24)).toFixed()) + " 天(" + ENDORSES[current].approvalOrganization.master.organizationName  + "): " + ENDORSES[current].title);
-                            GOOD_MSG += encodeURIComponent("機關回應倒數 " + (GOV_DAY - ((today.valueOf() - ENDORSES[current].secondSignedTime)/(3600000*24)).toFixed()) + " 天(" + ENDORSES[current].approvalOrganization.master.organizationName  + "): [" + ENDORSES[current].title) + "](" + JOIN_DETAIL_URL + ENDORSES[current].id + ")\\n";
+                            GOOD_MSG0 += encodeURIComponent("機關回應倒數 " + (GOV_DAY - ((today.valueOf() - ENDORSES[current].secondSignedTime)/(3600000*24)).toFixed()) + " 天(" + ENDORSES[current].approvalOrganization.master.organizationName  + "): [" + ENDORSES[current].title) + "](" + JOIN_DETAIL_URL + ENDORSES[current].id + ")\\n";
                         }
                         if (JOB_INDEX == 1 && ENDORSES[current].endorseCount >= config(ENDORSE_NOTIFY_COUNT)) {
                             console.log("附議通過剩餘 " + (ENDORSE_COUNT - ENDORSES[current].endorseCount) + " 個: " + ENDORSES[current].title);
-                            GOOD_MSG += encodeURIComponent("附議通過剩餘 " + (ENDORSE_COUNT - ENDORSES[current].endorseCount) + " 個: [" + ENDORSES[current].title) + "](" + JOIN_DETAIL_URL + ENDORSES[current].id + ")\\n";
+                            GOOD_MSG1_ENDORSE += encodeURIComponent("附議通過剩餘 " + (ENDORSE_COUNT - ENDORSES[current].endorseCount) + " 個: [" + ENDORSES[current].title) + "](" + JOIN_DETAIL_URL + ENDORSES[current].id + ")\\n";
                         }
                         if (JOB_INDEX == 1 && (now.valueOf() - ENDORSES[current].approvedTime) <= config(APPROVED_NOTIFY_HOURS)*3600000) {
                             console.log(new Date(ENDORSES[current].approvedTime).toISOString().substring(0,10) + " 進入附議階段: " + ENDORSES[current].title);
-                            GOOD_MSG += encodeURIComponent(new Date(ENDORSES[current].approvedTime).toISOString().substring(0,10) + " 進入附議階段: [" + ENDORSES[current].title) + "](" + JOIN_DETAIL_URL + ENDORSES[current].id + ")\\n";
+                            GOOD_MSG1_APPROVED += encodeURIComponent(new Date(ENDORSES[current].approvedTime).toISOString().substring(0,10) + " 進入附議階段: [" + ENDORSES[current].title) + "](" + JOIN_DETAIL_URL + ENDORSES[current].id + ")\\n";
                         }                        
                     }                    
                     //但是對每個提案，個別下載附議名單
@@ -162,8 +166,17 @@ function getProjectContent(current) {
                         console.log("Get " + ENDORSES.length + " endorses content. Job done.");
                         // 工作完成，把大JSON寫進檔案
                         fs.write(JOB_FOLDER[JOB_INDEX] + '/' + ENDORSES_JSON, JSON.stringify(ENDORSES, null, 2), 'w');
-                        if (GOOD_MSG.length > 0) {
-                            webhookRocketChat(GOOD_MSG.slice(0, -2));
+                        if (GOOD_MSG0.length > 0) {
+                            GOOD_MSG0 = encodeURIComponent("`成案待回超過" + config(GOV_NOTIFY_DAY) + "天`") + "\\n" + GOOD_MSG0;
+                            webhookRocketChat(GOOD_MSG0.slice(0, -2));
+                        }
+                        if (GOOD_MSG1_ENDORSE.length > 0) {
+                            GOOD_MSG1_ENDORSE = encodeURIComponent("`附議累積超過" + config(ENDORSE_NOTIFY_COUNT) + "個`") + "\\n" + GOOD_MSG0;
+                            webhookRocketChat(GOOD_MSG1_ENDORSE.slice(0, -2));
+                        }
+                        if (GOOD_MSG1_APPROVED.length > 0) {
+                            GOOD_MSG1_APPROVED = encodeURIComponent("`開始附議" + config(APPROVED_NOTIFY_HOURS) + "小時內`") + "\\n" + GOOD_MSG0;
+                            webhookRocketChat(GOOD_MSG1_APPROVED.slice(0, -2));
                         }
                         // 休息10秒後，繼續下一個工作
                         setTimeout(
