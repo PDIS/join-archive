@@ -171,11 +171,11 @@ function getProjectContent(current) {
                             webhookRocketChat(GOOD_MSG0.slice(0, -2));
                         }
                         if (GOOD_MSG1_ENDORSE.length > 0) {
-                            GOOD_MSG1_ENDORSE = encodeURIComponent("`附議累積超過" + config(ENDORSE_NOTIFY_COUNT) + "個`") + "\\n" + GOOD_MSG0;
+                            GOOD_MSG1_ENDORSE = encodeURIComponent("`附議累積超過" + config(ENDORSE_NOTIFY_COUNT) + "個`") + "\\n" + GOOD_MSG1_ENDORSE;
                             webhookRocketChat(GOOD_MSG1_ENDORSE.slice(0, -2));
                         }
                         if (GOOD_MSG1_APPROVED.length > 0) {
-                            GOOD_MSG1_APPROVED = encodeURIComponent("`開始附議" + config(APPROVED_NOTIFY_HOURS) + "小時內`") + "\\n" + GOOD_MSG0;
+                            GOOD_MSG1_APPROVED = encodeURIComponent("`開始附議" + config(APPROVED_NOTIFY_HOURS) + "小時內`") + "\\n" + GOOD_MSG1_APPROVED;
                             webhookRocketChat(GOOD_MSG1_APPROVED.slice(0, -2));
                         }
                         // 休息10秒後，繼續下一個工作
