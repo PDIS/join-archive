@@ -153,7 +153,17 @@
     "advisedTime": 1494172799000,
     "allowAttention": true,
     "approvalOrganization": {
-      "master": "",
+      "master": {
+        "gpivpAlias": "國發會",
+        "icon": "goi13.jpg",
+        "orgOrder": 1400,
+        "orgStatus": true,
+        "organizationId": "A41000000G",
+        "organizationName": "國家發展委員會",
+        "organizationParent": "",
+        "organizationUid": "92c4e85c-f48c-4673-a658-87ad75618bc6",
+        "updateDate": 1443593139000
+      },
       "slave": [
         {
           "gpivpAlias": "科技部",
@@ -168,7 +178,7 @@
         }
       ]
     },
-    "approvedDueDate": 1486137599000,
+    "approvedDueDate": 1489161599000,
     "approvedTime": 1484563142000,
     "attachments": [
       {
@@ -217,7 +227,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 5077,
+    "endorseCount": 5078,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1489766400000,
@@ -253,7 +263,7 @@
     "sortedAttachments": [],
     "status": "Advice",
     "title": "計畫管理法案臺灣版，不再浪費人民的納稅錢",
-    "updateDate": 1488981571000,
+    "updateDate": 1489023980000,
     "urgeFlag": false,
     "version": "EndorseStage_2016",
     "videoLink": "https://youtu.be/QoBMyzg6Pv4",
