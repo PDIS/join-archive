@@ -9941,7 +9941,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 408,
+    "endorseCount": 413,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1494086400000,
@@ -9958,7 +9958,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 4592,
+    "needToEndorseCount": 4587,
     "outcome": "<ul> \n <li>使學生放學後有足夠之時間自行運用或複習</li> \n <li>學校可省下第八節上課時間的成本(如教師鐘點費，水電費)</li> \n</ul>",
     "outline": "雖規定輔導課程不得教授新進度，但學校卻用來上新課程，因此輔導課程之原意已消失，建議取消此課程，並強制執行",
     "proposer": {
