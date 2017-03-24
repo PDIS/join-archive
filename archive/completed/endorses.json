@@ -78,7 +78,17 @@
     "advisedTime": 1494518399000,
     "allowAttention": true,
     "approvalOrganization": {
-      "master": "",
+      "master": {
+        "gpivpAlias": "衛福部",
+        "icon": "goi10.jpg",
+        "orgOrder": 1000,
+        "orgStatus": true,
+        "organizationId": "A21000000I",
+        "organizationName": "衛生福利部",
+        "organizationParent": "",
+        "organizationUid": "92c4e85c-f48c-4673-a658-87ad75618bc4",
+        "updateDate": 1443593113000
+      },
       "slave": ""
     },
     "approvedDueDate": 1490111999000,
@@ -97,7 +107,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 6411,
+    "endorseCount": 6415,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1494086400000,
