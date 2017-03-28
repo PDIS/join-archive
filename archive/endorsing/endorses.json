@@ -6,6 +6,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -81,6 +82,7 @@
       "master": {
         "gpivpAlias": "人事總處",
         "icon": "goi17.jpg",
+        "isShow": true,
         "orgOrder": 1800,
         "orgStatus": true,
         "organizationId": "A58000000A",
@@ -221,6 +223,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -426,6 +429,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -503,6 +507,7 @@
         {
           "gpivpAlias": "內政部",
           "icon": "goi1.jpg",
+          "isShow": true,
           "orgOrder": 200,
           "orgStatus": true,
           "organizationId": "301000000A",
@@ -514,6 +519,7 @@
         {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -654,6 +660,7 @@
       "master": {
         "gpivpAlias": "內政部",
         "icon": "goi1.jpg",
+        "isShow": true,
         "orgOrder": 200,
         "orgStatus": true,
         "organizationId": "301000000A",
@@ -861,6 +868,7 @@
         {
           "gpivpAlias": "勞動部",
           "icon": "goi11.jpg",
+          "isShow": true,
           "orgOrder": 1200,
           "orgStatus": true,
           "organizationId": "A17000000J",
@@ -936,6 +944,7 @@
       "master": {
         "gpivpAlias": "法務部",
         "icon": "goi6.jpg",
+        "isShow": true,
         "orgOrder": 700,
         "orgStatus": true,
         "organizationId": "A11000000F",
@@ -1011,6 +1020,7 @@
       "master": {
         "gpivpAlias": "財政部",
         "icon": "goi4.jpg",
+        "isShow": true,
         "orgOrder": 500,
         "orgStatus": true,
         "organizationId": "A07000000D",
@@ -1086,6 +1096,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -1226,6 +1237,7 @@
       "master": {
         "gpivpAlias": "內政部",
         "icon": "goi1.jpg",
+        "isShow": true,
         "orgOrder": 200,
         "orgStatus": true,
         "organizationId": "301000000A",
@@ -1366,6 +1378,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -1441,6 +1454,7 @@
       "master": {
         "gpivpAlias": "金管會",
         "icon": "goi22.jpg",
+        "isShow": true,
         "orgOrder": 2400,
         "orgStatus": true,
         "organizationId": "A45000000D",
@@ -1648,6 +1662,7 @@
         {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -1725,6 +1740,7 @@
         {
           "gpivpAlias": "財政部",
           "icon": "goi4.jpg",
+          "isShow": true,
           "orgOrder": 500,
           "orgStatus": true,
           "organizationId": "A07000000D",
@@ -1736,6 +1752,7 @@
         {
           "gpivpAlias": "經濟部",
           "icon": "goi7.jpg",
+          "isShow": true,
           "orgOrder": 800,
           "orgStatus": true,
           "organizationId": "313000000G",
@@ -1811,6 +1828,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -1823,6 +1841,7 @@
         {
           "gpivpAlias": "通傳會",
           "icon": "goi31.jpg",
+          "isShow": true,
           "orgOrder": 3300,
           "orgStatus": true,
           "organizationId": "A63000000H",
@@ -1914,7 +1933,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 2,
+    "endorseCount": 3,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1495814400000,
@@ -1931,7 +1950,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 4998,
+    "needToEndorseCount": 4997,
     "outcome": "<p>降低農藥殘留容許量標準，或制定嚴格的標準 — 利益：</p> \n<p>1. 食品安全提高，人民食安會更有保障</p> \n<p>2. 可以有更好的食物品質，更可以以此當作農作物外銷的廣告</p> \n<p>3. 有嚴格的制度，農民才會想要進步，不依賴農藥，想盡辦法種值更高品質的農作物</p> \n<p>4. 有好的食物品質，國人健康會更加良好</p> \n<p>&nbsp;</p> \n<p>影響：</p> \n<p>1. 高嚴格的標準，會讓種植農業的人士感到棘手</p> \n<p>(改進方法： 政府應該配合中研院和各個大專院校努力研發更好的種植方式，在不依賴農藥和有害人體和自然的前提下，研發防治病蟲害的方法 )</p> \n<p>2. 可能有大量農民想改為休閒農作</p> \n<p>(改進方法： 制定配套措施，鼓勵優良農民種植，並規定，休閒農作需要達到的品質與條件)</p>",
     "outline": "消費者在選購蔬果時，最常存疑與擔心的，就是農藥殘留的問題，農作物只要有使用農藥，即會殘留農藥，那政府如何為民眾降低農藥帶來的風險呢？最根本解決的辦法便是有高標準的防治，雖然農藥殘留容許量標準不至於影響國人身體健康但是在這個人人求速度求簡潔的社會除非我們有比他國更嚴格十幾倍的食安檢查機制不然，如何防範不肖業者的惡行農藥殘留容許量標準更應該與世界各國比較為求食品安全，不應該自我安慰放寬標準更應該制定嚴",
     "proposer": {
@@ -2028,6 +2047,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -2103,6 +2123,7 @@
       "master": {
         "gpivpAlias": "財政部",
         "icon": "goi4.jpg",
+        "isShow": true,
         "orgOrder": 500,
         "orgStatus": true,
         "organizationId": "A07000000D",
@@ -2178,6 +2199,7 @@
       "master": {
         "gpivpAlias": "財政部",
         "icon": "goi4.jpg",
+        "isShow": true,
         "orgOrder": 500,
         "orgStatus": true,
         "organizationId": "A07000000D",
@@ -2204,7 +2226,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 118,
+    "endorseCount": 119,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1491926400000,
@@ -2221,7 +2243,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 4882,
+    "needToEndorseCount": 4881,
     "outcome": "<p><span style=\"font-size: 14pt;\">應盡速改制讓稅制公平</span></p>",
     "outline": "1.中獎人如果是個人（不論是在中華民國境內居住之個人或非中華民國境內居住之個人）或在中華民國境內無固定營業場所的營利事業，中獎獎金每聯（組、注）獎額不超過新臺幣2,000元者，免予扣繳；每聯（組、注）獎額超過新臺幣2,000元者，應按給付全額扣取百分之二十。另外，因這項獎金係採分離課稅，即使中獎人是在中華民國境內居住之個人，也不必再計入綜合所得總額申報課稅，而所扣繳的稅款也不能夠抵繳或申請退還。2",
     "proposer": {
@@ -2253,6 +2275,7 @@
       "master": {
         "gpivpAlias": "衛福部",
         "icon": "goi10.jpg",
+        "isShow": true,
         "orgOrder": 1000,
         "orgStatus": true,
         "organizationId": "A21000000I",
@@ -2330,6 +2353,7 @@
         {
           "gpivpAlias": "交通部",
           "icon": "goi8.jpg",
+          "isShow": true,
           "orgOrder": 900,
           "orgStatus": true,
           "organizationId": "315000000H",
@@ -2486,7 +2510,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 3672,
+    "endorseCount": 3676,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1495209600000,
@@ -2503,7 +2527,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 1328,
+    "needToEndorseCount": 1324,
     "outcome": "<p><span style=\"font-size: 14pt;\">1. 中重度病患對現行藥物效果不佳，卻不得不大量使用，造成醫藥資源的耗損，而CBD對症狀改善的有效值極高，能替代藥物，降低健保財政的負擔。</span></p> \n<p><span style=\"font-size: 14pt;\">2. 病患無法自理生活，影響了無數個家庭，也耗用了政府大量長照的資源，CBD能幫助病患重拾生活能力，讓長照資源得以用在更需要的地方。</span></p> \n<p><span style=\"font-size: 14pt;\">3.CBD對於其他重大疾病亦有極高的醫療潛力，國外有多項研究正進行中，逐步開放CBD的醫療適應症，能嘉惠更多的病患。</span></p>",
     "outline": "帕金森氏症是一種運動神經元退化的疾病，癲癇則是腦部異常放電的疾病，二者皆對病患的生存品質造成嚴重的影響。1.CBD(大麻二酚)是萃取自大麻的化合物，也是極有效能改善癲癇和巴金森症狀的物質，能快速有效的緩解症狀。2.CBD和大麻裡引起興奮的化合物THC(四氫大麻酚)不同。它不會引起精神活性。在國外，加拿大、荷蘭、以色列，瑞士、西班牙等國家及美國近25州，均已將醫療用途的CBD合法或除罪化，但在台灣，",
     "proposer": {
@@ -2535,6 +2559,7 @@
       "master": {
         "gpivpAlias": "內政部",
         "icon": "goi1.jpg",
+        "isShow": true,
         "orgOrder": 200,
         "orgStatus": true,
         "organizationId": "301000000A",
@@ -2740,6 +2765,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -2753,38 +2779,6 @@
     "approvedDueDate": 1488902399000,
     "approvedTime": 1487410618000,
     "attachments": [
-      {
-        "attachmentDescription": "",
-        "attachmentIcon": "",
-        "attachmentName": "非超車時勿佔用內側車道.jpg",
-        "attachmentParentUid": "",
-        "attachmentPath": "/data/attachment/6b08c523-c414-4ab0-b7e4-72bcbe098e83.jpg",
-        "attachmentType": 1,
-        "attachmentUid": "b206f846-90cc-4524-b278-1094fd66d718",
-        "attachmentUrl": "/attachments/b206f846-90cc-4524-b278-1094fd66d718",
-        "baseName": "非超車時勿佔用內側車道.jpg",
-        "childAttachments": [],
-        "downloadUrl": "/attachments/b206f846-90cc-4524-b278-1094fd66d718/download/非超車時勿佔用內側車道.jpg",
-        "fileExtension": "jpg",
-        "sectionUid": "",
-        "updateDate": 1487387072000
-      },
-      {
-        "attachmentDescription": "",
-        "attachmentIcon": "",
-        "attachmentName": "內側為超車道保持最高速行駛出處.jpg",
-        "attachmentParentUid": "",
-        "attachmentPath": "/data/attachment/5b238d44-b711-4c48-a3de-46dff9901419.jpg",
-        "attachmentType": 1,
-        "attachmentUid": "785501ec-0e79-4b7e-8f01-bc0444356416",
-        "attachmentUrl": "/attachments/785501ec-0e79-4b7e-8f01-bc0444356416",
-        "baseName": "內側為超車道保持最高速行駛出處.jpg",
-        "childAttachments": [],
-        "downloadUrl": "/attachments/785501ec-0e79-4b7e-8f01-bc0444356416/download/內側為超車道保持最高速行駛出處.jpg",
-        "fileExtension": "jpg",
-        "sectionUid": "",
-        "updateDate": 1487387072000
-      },
       {
         "attachmentDescription": "",
         "attachmentIcon": "",
@@ -2845,6 +2839,38 @@
         "baseName": "管字第1060003713號-2.jpg",
         "childAttachments": [],
         "downloadUrl": "/attachments/807e210e-9f3d-45f4-b141-f964bf59d0aa/download/管字第1060003713號-2.jpg",
+        "fileExtension": "jpg",
+        "sectionUid": "",
+        "updateDate": 1487387072000
+      },
+      {
+        "attachmentDescription": "",
+        "attachmentIcon": "",
+        "attachmentName": "非超車時勿佔用內側車道.jpg",
+        "attachmentParentUid": "",
+        "attachmentPath": "/data/attachment/6b08c523-c414-4ab0-b7e4-72bcbe098e83.jpg",
+        "attachmentType": 1,
+        "attachmentUid": "b206f846-90cc-4524-b278-1094fd66d718",
+        "attachmentUrl": "/attachments/b206f846-90cc-4524-b278-1094fd66d718",
+        "baseName": "非超車時勿佔用內側車道.jpg",
+        "childAttachments": [],
+        "downloadUrl": "/attachments/b206f846-90cc-4524-b278-1094fd66d718/download/非超車時勿佔用內側車道.jpg",
+        "fileExtension": "jpg",
+        "sectionUid": "",
+        "updateDate": 1487387072000
+      },
+      {
+        "attachmentDescription": "",
+        "attachmentIcon": "",
+        "attachmentName": "內側為超車道保持最高速行駛出處.jpg",
+        "attachmentParentUid": "",
+        "attachmentPath": "/data/attachment/5b238d44-b711-4c48-a3de-46dff9901419.jpg",
+        "attachmentType": 1,
+        "attachmentUid": "785501ec-0e79-4b7e-8f01-bc0444356416",
+        "attachmentUrl": "/attachments/785501ec-0e79-4b7e-8f01-bc0444356416",
+        "baseName": "內側為超車道保持最高速行駛出處.jpg",
+        "childAttachments": [],
+        "downloadUrl": "/attachments/785501ec-0e79-4b7e-8f01-bc0444356416/download/內側為超車道保持最高速行駛出處.jpg",
         "fileExtension": "jpg",
         "sectionUid": "",
         "updateDate": 1487387072000
@@ -2928,7 +2954,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 15,
+    "endorseCount": 16,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1494604800000,
@@ -2945,7 +2971,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 4985,
+    "needToEndorseCount": 4984,
     "outcome": "<p>如此做的好處是，大家都可以自在的享受林間車道帶來的悠閒與蟲鳴鳥叫，對重機騎士當然會有影響，但不應為了他們一己的快活，而打擾其他用路人，我想他們應該也樂於與大家分享山林的美好</p>",
     "outline": "我熱愛在山林間騎乘自行車，但常常美好的風景與氛圍，總是被重機呼嘯而過的聲音破壞，我不能理解為何重機的聲音會比汽車的聲音來的大聲而且尖銳，明明它的CC數就比汽車來的少，我提議重機應該強制加種消音裝置，避免破壞台灣林間車道的美好",
     "proposer": {
@@ -2977,6 +3003,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -2989,6 +3016,7 @@
         {
           "gpivpAlias": "內政部",
           "icon": "goi1.jpg",
+          "isShow": true,
           "orgOrder": 200,
           "orgStatus": true,
           "organizationId": "301000000A",
@@ -3259,6 +3287,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -3350,7 +3379,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 5,
+    "endorseCount": 6,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1494604800000,
@@ -3367,7 +3396,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 4995,
+    "needToEndorseCount": 4994,
     "outcome": "<p><span style=\"font-size: 14pt;\">國民年金辦了也好幾年了，有多少人有受惠到又有多少人被勞保局給『強制納保』的政策給害得負債累累的呢?，會被加入國民年金的人大多數都是做臨時工的人，而這些人平時為了生活和吃飯負擔就很重了，卻又被政府給逼迫一定要繳交國民年金的這筆龐大費用，不繳交政府就會每個月一直寄帳單給你，而且費用也會加上滯納金和利息越累計越多，真的覺得政府對於收錢這方面有著極高的效率。</span></p> \n<p>&nbsp;</p> \n<p><span style=\"font-size: 14pt;\">而另外一種會被『強制加入』國民年金的人是長期或短期失業的人， 對於這方面的人，在失去勞保的那一刻， 國民年金勞保局很快就會幫你『強制加入』了，而且， 就算你找到工作了，失業期間的國民年金費用你還是要繳交， 不然政府還是會一直寄帳單給你，而且就算你繳清了， 你以後還是只能領到勞保的福利而不能再領國民年金的福利， 真的讓人覺得國民年金到底保障又或者讓誰受益了呢?</span></p> \n<p><span style=\"font-size: 14pt;\">&nbsp;</span></p> \n<p><span style=\"font-size: 14pt;\">&nbsp;</span></p> \n<p><span style=\"font-size: 14pt;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;請各位多多轉發到FB或各大論壇，謝謝各位。</span></p>",
     "outline": "1.依照國民年金法第6條及第7條的規定，年滿25歲、未滿65歲，在國內設有戶籍，且未領取勞保老年給付、公教保養老給付及軍保退伍給付的國民，在沒有參加勞保、農保、公教保或軍保的期間，都應該要參加國民年金保險。2.國民年金是強制性的社會保險，由勞保局每月比對戶政及相關社會保險資料後，主動將符合資格者納保，不符合資格者退保。也就是說，符合國民年金納(退)保資格的人，勞保局就必須依法強制納(退)保，恕無法",
     "proposer": {
@@ -3464,6 +3493,7 @@
       "master": {
         "gpivpAlias": "內政部",
         "icon": "goi1.jpg",
+        "isShow": true,
         "orgOrder": 200,
         "orgStatus": true,
         "organizationId": "301000000A",
@@ -3541,6 +3571,7 @@
         {
           "gpivpAlias": "內政部",
           "icon": "goi1.jpg",
+          "isShow": true,
           "orgOrder": 200,
           "orgStatus": true,
           "organizationId": "301000000A",
@@ -3567,7 +3598,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 340,
+    "endorseCount": 342,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1491753600000,
@@ -3584,7 +3615,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "<a href='http://www.ndmc.ndu.edu.tw/collection/96/%E6%B3%95%E5%BE%8B%E9%A1%9E/(6)%E5%BE%9E%E5%B9%B3%E7%AD%89%E5%8E%9F%E5%89%87%E8%AB%96%E6%88%91%E5%9C%8B%E7%8F%BE%E8%A1%8C%E5%85%B5%E5%BD%B9%E5%88%B6%E5%BA%A6.pdf'  title='另開視窗前往從平等原則論我國現行兵役制度 ——以兵役義務及替代役制度為中心'  target='_blank' >從平等原則論我國現行兵役制度 ——以兵役義務及替代役制度為中心</a>;<a href='http://www.nd.ntu.edu.tw/uploads/asset/data/556ddeb86e747573177b1d00/2.4_%E5%BC%B5%E9%87%91%E6%AC%8A.pdf'  title='另開視窗前往論強迫勞動體制之性別正義——一個酷兒法學的初步嘗試'  target='_blank' >論強迫勞動體制之性別正義——一個酷兒法學的初步嘗試</a>;<a href='http://teacher.yuntech.edu.tw/yangjames/lawpaper/woman.htm'  title='另開視窗前往女性不用當兵？——檢討釋字四九○號中提及的兩性差異操作標準'  target='_blank' >女性不用當兵？——檢討釋字四九○號中提及的兩性差異操作標準</a>;<a href='http://curia.europa.eu/juris/liste.jsf?language=en&num=C-186/01'  title='另開視窗前往歐洲法院判決C-186/01——亞歷山大．多莉訴德意志聯邦共和國案'  target='_blank' >歐洲法院判決C-186/01——亞歷山大．多莉訴德意志聯邦共和國案</a>",
-    "needToEndorseCount": 4660,
+    "needToEndorseCount": 4658,
     "outcome": "<p><span style=\"font-size: 14pt;\">　　《兵役法》之修正有助於我國性別平等之發展。無論男女皆徵、男女皆不徵都能使國人消除「男強女弱」的刻板印象。</span><br> <br><span style=\"font-size: 14pt;\">　　尤其再搭配非武裝國防等全民國防概念，又能使國內有更多的國民一同參與國防事務、促進軍民一體。不再有「軍人、民人」的差異和隔閡，讓我們的國防體系更貼近現代社會。</span><br> <br><span style=\"font-size: 14pt;\">　　更重要的是，去除掉國人刻意要求男性陽剛氣質的習慣，讓具有陰柔氣質的男性更能融入社會。也不會再有「不當兵就不是男人」的偏見，也能減少對公眾人物「閃兵」的指謫。讓當兵不再成為求職與社會成長的影響因素。</span></p> \n<p>&nbsp;</p> \n<p><span style=\"font-size: 14pt;\">　　再者，此兩種作法對於國防需求也有極大的幫助。徵兵不分性別，可以獲得的兵員數自然大於只徵單一性別，軍隊的組成越多元，也越能完整軍隊的功能。進一步說，這種打破性別刻板印象的做法更能鼓勵女性繼續「從事軍事專業工作」、「加入國軍行列」。國軍也會因應更多的女性加入軍中，益加積極地改善女性軍人的「服役制度環境」，保障「性別平等與工作權」。未來徵兵的員額也不必如此大規模，僅徵召願意福短期兵役者即可獲得最菁英的士兵。</span></p> \n<p><span style=\"font-size: 14pt;\">　　而在法律上廢除徵兵制度也有助於全募兵的推動。以往年年政府皆遭人諷刺「全募兵跳票」，若廢除徵兵法條，那全募兵自然就沒有跳票的空間。既然沒有跳票空間，國防部就不會被指謫「募兵跳票」，「107年起不徵兵」的政策也能夠兌現了。</span><br><br><span style=\"font-size: 14pt;\">　　現階段對於此制度的不明確，使人難以辨別，這究竟是女性專屬的父權紅利，抑或是促進性別平等的肯定行為？如果一直曖昧其詞，那麼近百年來的兩性戰爭就沒有終結的一天。不能夠認清現狀，那女性就不知道自己如同原住民或是一些弱勢文化一般的處境，而把一切的性別刻板印象視作理所當然。若能排除這些複雜的原型，使所有的性別皆能得到解放，那自然也不會有什麼「紳士」、「好女人」、「良家婦女」、「新好男人」等基於性別而對個人所進行的壓迫。國家若能做此表率，那國民自然不會再受到自己天生性別的負累。</span><br> <br><span style=\"font-size: 14pt;\">　　而國家若有如此進步的人權展現，那在國際上的地位必然益加受世界的尊敬。如果同性婚姻的法案，就足以讓世界重視亞洲第一個同性婚姻國家。那麼成為亞洲最重視性別平權的國家，更能提高我國的國際名聲。國民也會為此感到驕傲，增加對國家的認同感</span>。</p>",
     "outline": "現行之兵役法，最初制定於民國二十二年，稱我國男子皆有服兵役之義務。然自行憲後，立法機關從未檢討其內容是否符合憲法之平等原則。釋字490號所謂「立法者鑒於男女生理上之差異及因此種差異所生之社會生活功能角色之不同」當為民國二十二年時男女社會生活功能角色之不同；又稱此立法「係為實踐國家目的及『憲法』上人民之基本義務而為之規定」，然而民國二十二年並未有憲法，大法官何以揣摩訓政時期第3屆立法委員的心思？此解",
     "proposer": {
@@ -3811,6 +3842,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -3886,6 +3918,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -3961,6 +3994,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -4036,6 +4070,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -4111,6 +4146,7 @@
       "master": {
         "gpivpAlias": "財政部",
         "icon": "goi4.jpg",
+        "isShow": true,
         "orgOrder": 500,
         "orgStatus": true,
         "organizationId": "A07000000D",
@@ -4123,6 +4159,7 @@
         {
           "gpivpAlias": "交通部",
           "icon": "goi8.jpg",
+          "isShow": true,
           "orgOrder": 900,
           "orgStatus": true,
           "organizationId": "315000000H",
@@ -4198,6 +4235,7 @@
       "master": {
         "gpivpAlias": "人事總處",
         "icon": "goi17.jpg",
+        "isShow": true,
         "orgOrder": 1800,
         "orgStatus": true,
         "organizationId": "A58000000A",
@@ -4273,6 +4311,7 @@
       "master": {
         "gpivpAlias": "經濟部",
         "icon": "goi7.jpg",
+        "isShow": true,
         "orgOrder": 800,
         "orgStatus": true,
         "organizationId": "313000000G",
@@ -4348,6 +4387,7 @@
       "master": {
         "gpivpAlias": "內政部",
         "icon": "goi1.jpg",
+        "isShow": true,
         "orgOrder": 200,
         "orgStatus": true,
         "organizationId": "301000000A",
@@ -4360,6 +4400,7 @@
         {
           "gpivpAlias": "財政部",
           "icon": "goi4.jpg",
+          "isShow": true,
           "orgOrder": 500,
           "orgStatus": true,
           "organizationId": "A07000000D",
@@ -4435,6 +4476,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -4510,6 +4552,7 @@
       "master": {
         "gpivpAlias": "衛福部",
         "icon": "goi10.jpg",
+        "isShow": true,
         "orgOrder": 1000,
         "orgStatus": true,
         "organizationId": "A21000000I",
@@ -4536,7 +4579,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 1959,
+    "endorseCount": 1961,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1491926400000,
@@ -4553,7 +4596,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 3041,
+    "needToEndorseCount": 3039,
     "outcome": "<p>「睡眠呼吸中止症」有可能在睡眠中去世，睡眠呼吸中止症(OSA)患者罹患慢性病機率提升300%且恐短命近二十年，</p> \n<p>睡眠呼吸中止症(OSA)是因人在睡眠中，原先固定和撐開咽喉的肌肉鬆弛，堵住呼吸道以致呼吸困難，甚至可能因氣道完全堵塞而窒息，最明顯症狀即為打鼾，嚴重者在睡覺當中甚至會停止呼吸。根據國外學者研究【註1】指出，OSA患者罹患高血壓機率比一般人多1.4至 3.1 倍、心血管疾病為1.3至2.3 倍、心臟衰竭也提升至2.4倍，以及中風率增加到1.6倍；且因OSA導致睡眠不足而發生車禍的比率更是高達8倍。同研究也發現，在1,522名受試者當中，OSA患者在往後18年存活下來的機率比無OSA的一般人大幅下跌將近30%，顯示OSA患者不只有更高的慢性疾病罹患率，更具潛在的生命威脅。</p> \n<p>&nbsp;</p> \n<p>睡眠呼吸中止症除了反覆性的睡眠中斷使得睡眠品質不佳外，反覆性的睡眠中斷與血氧不足，會引發心臟負荷增加，因此睡眠呼吸中止症患者罹患高血壓、心肌梗塞、心絞痛的比率高於一般人。在精神認知方面的影響，由於夜間未獲良好的睡眠，易導致日間精神渙散、嗜睡、注意力不集中、認知與記憶力大幅減退，相對的，由於日間精神不佳、容易打瞌睡，發生交通事故與工作意外的比例也高。</p> \n<p>另有一案審核未通過之回覆如下</p> \n<p>(一)「單項陽壓呼吸器 (C－PAP)」佔醫療輔具補助資源大宗。<br>(二)屬疾病範疇，經呼吸器治療後，該障礙情形可改善，易造成未來風險之疾病，應積極治療。<br>(三)無實質性障礙狀態，且其生活功能、社經地位均優於其他類身心障礙者。<br>新制身心障礙(ICF)基準，係以身體結構及功能、活動參與及環境因素進行判定，係以障礙是否影響生活，而非單以疾病為鑑定依據，經綜合考量後，予以刪除。<br>因此本案不進入附議。</p> \n<p>&nbsp;</p> \n<p><strong><span style=\"font-size: 14pt;\">第一點提到，單項陽壓呼吸器 (C－PAP)」佔醫療輔具補助資源大宗。每人只能申請補助一次，患者也須自行負擔數萬元不等的金額，可見是真的需要的人才會進行購買及申請補助。政府這時不是更應該幫助需要幫助的民眾？</span></strong></p> \n<p><strong><span style=\"font-size: 14pt;\">第二點提到，經呼吸器治療後，該障礙情形可改善，但前提是仍必須持續使用呼吸器，並無法完全治療。</span></strong></p> \n<p><strong><span style=\"font-size: 14pt;\">第三點提到，係以身體結構及功能、活動參與及環境因素進行判定，係以障礙是否影響生活，而非單以疾病為鑑定依據。</span></strong></p> \n<p><strong><span style=\"font-size: 14pt;\">睡眠呼吸中止症的病患，由於日間精神不佳、容易打瞌睡，發生交通事故與工作意外的比例也高，明顯的影響到生活。</span></strong></p> \n<p><strong><span style=\"font-size: 14pt;\">難道生活功能、社經地位均優於其他類身心障礙者，就不能算是身心障礙？</span></strong></p> \n<p>&nbsp;</p> \n<p><span style=\"font-size: 24pt;\"><strong>強烈建議將「睡眠呼吸中止症」重新納入身心障礙</strong></span></p>",
     "outline": "提議內容或建議事項衛生福利部已於昨日發布修正案，正式取消睡眠呼吸中止身心障礙。發布修正條文106年1月5日，自發布日90日後實施，106年4月5日起實施新制。※政府單位公告資訊：http://ppt.cc/ilaT3點選【行政院公報】之連結後，會出現衛生福利部令106年1月5日衛部照字第1051564595號，修正「身心障礙者鑑定作業辦法」第十三條及第四條附表一、第五條附表二、附表三。一、依修正總",
     "proposer": {
@@ -4585,6 +4628,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -4725,6 +4769,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -4800,6 +4845,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -4875,6 +4921,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -4950,6 +4997,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -4962,6 +5010,7 @@
         {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -5102,6 +5151,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -5177,6 +5227,7 @@
       "master": {
         "gpivpAlias": "勞動部",
         "icon": "goi11.jpg",
+        "isShow": true,
         "orgOrder": 1200,
         "orgStatus": true,
         "organizationId": "A17000000J",
@@ -5252,6 +5303,7 @@
       "master": {
         "gpivpAlias": "",
         "icon": "",
+        "isShow": true,
         "orgOrder": 1700,
         "orgStatus": true,
         "organizationId": "A59000000N",
@@ -5278,7 +5330,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 300,
+    "endorseCount": 301,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1491753600000,
@@ -5295,7 +5347,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "<a href='http://news.ltn.com.tw/news/focus/paper/859197'  title='另開視窗前往窮苦人的守護神 10元自助餐阿嬤走了'  target='_blank' >窮苦人的守護神 10元自助餐阿嬤走了</a>;<a href='http://www.appledaily.com.tw/appledaily/article/headline/20150305/36419221/'  title='另開視窗前往善心嬤逝 千人送行'  target='_blank' >善心嬤逝 千人送行</a>",
-    "needToEndorseCount": 4700,
+    "needToEndorseCount": 4699,
     "outcome": "<p>一位有慈悲心的人對於困苦的碼頭工人的幫助，堅持多年用最便宜的價錢賣著愛心便當，是具有給小孩教育的地方所在的地方。</p>",
     "outline": "近日有立委提議要更換台灣貨幣上頭像應更換，在此我要這這邊提議一位女士對社為極為有貢獻，這位女士叫莊朱玉女講到這位年長者的貢獻可能在他去世後才引起更多人知道。所以我要提議將台灣硬幣頭像換成莊朱玉女女士使人永久記得這位再何艱困都念著他人困厄的心情的人物以下為莊朱玉女阿嬤的故事莊朱玉女女士經營著一家吃到飽的自助餐有魚有肉有蛋全部都任人選取食用更讓人嘖嘖稱奇的是這樣一頓飽餐僅收台幣10元。有人說阿嬤曾受過",
     "proposer": {
@@ -5587,6 +5639,7 @@
       "master": {
         "gpivpAlias": "經濟部",
         "icon": "goi7.jpg",
+        "isShow": true,
         "orgOrder": 800,
         "orgStatus": true,
         "organizationId": "313000000G",
@@ -5678,7 +5731,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 1803,
+    "endorseCount": 1804,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1494950400000,
@@ -5695,7 +5748,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 3197,
+    "needToEndorseCount": 3196,
     "outcome": "<p>1.藉由提升全民的安全駕駛觀念，可使汽/機車，能夠安全，和平的共用車道，也可以用最有效率的方式達到最高的交通疏通量，不需要在挪經費出來在路面上寫進行車慢車<br>2.解除禁行機慢車道後，因提升行車觀念，使汽/機車可以和平共道，能夠省下更多的經費開闢新的一條機慢車繞道<br>1.可以省去更多的道路維修保養經費2.可以減少更多的環境破壞<br>3.左轉往左邊車道靠，右轉往右邊車道靠，這是最基本的觀念，但往往許多汽車駕駛因為外側有機車，而導致都要到路口才能停下來緩慢通過，在緩慢通過的期間，被他轉彎中阻擋的汽/機車駕駛，都需要因為他而減速，降低交通的效率，因此落實左轉靠左、右轉靠右，不僅僅是汽車駕駛才需要做到，機車駕駛也可以做到，以Youtube連結為例(特別感謝TaibeiMoto．台北摩多授權提供):安全左轉機車也是能夠做到的，在全民駕駛觀念的提升後，好處不勝枚舉。<br><br>提升全民行車觀念：<br>1.汽/機車能夠安全共道，有效率的提升交通疏導量<br>2.無須多挪出經費維護保養多出來的繞道，以及在路面上寫進行機慢車道<br>3.使機車也能夠安全左轉，無須再多挪出經費設置待轉區<br>解除禁行機慢車道：<br>1.使機車能夠安全行駛於車道內，不必被強制規定行駛於外側，導致與外側違停車輛發生擦撞，更安全<br>2.可以將外側車道規畫成更多的停車格與車道有所區隔，使所有車輛都能夠安全行駛，也能相對解決停車問題<br>解除強制二段式左轉：<br>1.無須因為汽車駕駛恍惚，而使待轉區變成待撞區，更安全<br>2.等到路口無車，或是左轉燈號亮起直接左轉，提升行車效率</p>",
     "outline": "1.相信大家之前都有看到一則新聞，真的是見識到台灣民眾開(騎)車的觀念極差至極，日前在高雄，有一台汽車為了搶快闖紅燈，機車駕駛問汽車駕駛，沒看到你們變紅燈嗎?汽車駕駛回覆，沒有啊我瞎了阿，車上還坐了汽車駕駛的小孩。這種駕駛人的觀念，實在令人髮指！希望政府能推動一系列的安駕講習，例如新竹安駕中心，以新竹安駕中心為主，規劃一系列的安全駕駛講座，各縣市例如監理站為輔，輔助講座的落實，以提升全台民眾駕駛觀",
     "proposer": {
@@ -5727,6 +5780,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -5867,6 +5921,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -5942,6 +5997,7 @@
       "master": {
         "gpivpAlias": "衛福部",
         "icon": "goi10.jpg",
+        "isShow": true,
         "orgOrder": 1000,
         "orgStatus": true,
         "organizationId": "A21000000I",
@@ -6036,6 +6092,7 @@
         {
           "gpivpAlias": "內政部",
           "icon": "goi1.jpg",
+          "isShow": true,
           "orgOrder": 200,
           "orgStatus": true,
           "organizationId": "301000000A",
@@ -6193,6 +6250,7 @@
       "master": {
         "gpivpAlias": "財政部",
         "icon": "goi4.jpg",
+        "isShow": true,
         "orgOrder": 500,
         "orgStatus": true,
         "organizationId": "A07000000D",
@@ -6398,6 +6456,7 @@
       "master": {
         "gpivpAlias": "法務部",
         "icon": "goi6.jpg",
+        "isShow": true,
         "orgOrder": 700,
         "orgStatus": true,
         "organizationId": "A11000000F",
@@ -6473,6 +6532,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -6678,6 +6738,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -6753,6 +6814,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -6828,6 +6890,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -6905,6 +6968,7 @@
         {
           "gpivpAlias": "內政部",
           "icon": "goi1.jpg",
+          "isShow": true,
           "orgOrder": 200,
           "orgStatus": true,
           "organizationId": "301000000A",
@@ -7045,6 +7109,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -7071,7 +7136,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 2191,
+    "endorseCount": 2201,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1494950400000,
@@ -7088,7 +7153,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 2809,
+    "needToEndorseCount": 2799,
     "outcome": "<p>1、提升人民品性與素質，降低犯罪率<br> 2、改善社會風氣，維護良善價值觀<br> 3、培養德智體群美，五育均衡之學子<br> 4、維持社會秩序，促進公共利益</p> \n<p>&nbsp;</p>",
     "outline": "（一）同運者說，不推動性平教育的話，那該怎麼反性侵？該怎麼保護小孩？這是似是而非，本末倒置的話術：1、社會風氣敗壞，政府應該要做的事是改善社會風氣，而非配合壞風氣來開放性教育課程；2、社會犯罪率高，政府應該要做的事是加強法律制裁，而非配合犯罪率來下修性教育內容；3、社會人心不古、險惡多變，政府應該要做的事是加強倫理道德教育，以求淨化人心…而非配合不當情況來擴大性教育學習。號稱性教育知識豐富的年輕人",
     "proposer": {
@@ -7120,6 +7185,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -7132,6 +7198,7 @@
         {
           "gpivpAlias": "內政部",
           "icon": "goi1.jpg",
+          "isShow": true,
           "orgOrder": 200,
           "orgStatus": true,
           "organizationId": "301000000A",
@@ -7207,6 +7274,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -7347,6 +7415,7 @@
       "master": {
         "gpivpAlias": "法務部",
         "icon": "goi6.jpg",
+        "isShow": true,
         "orgOrder": 700,
         "orgStatus": true,
         "organizationId": "A11000000F",
@@ -7422,6 +7491,7 @@
       "master": {
         "gpivpAlias": "經濟部",
         "icon": "goi7.jpg",
+        "isShow": true,
         "orgOrder": 800,
         "orgStatus": true,
         "organizationId": "313000000G",
@@ -7562,6 +7632,7 @@
       "master": {
         "gpivpAlias": "財政部",
         "icon": "goi4.jpg",
+        "isShow": true,
         "orgOrder": 500,
         "orgStatus": true,
         "organizationId": "A07000000D",
@@ -7637,6 +7708,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -7712,6 +7784,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -7852,6 +7925,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -7927,6 +8001,7 @@
       "master": {
         "gpivpAlias": "法務部",
         "icon": "goi6.jpg",
+        "isShow": true,
         "orgOrder": 700,
         "orgStatus": true,
         "organizationId": "A11000000F",
@@ -8148,7 +8223,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 400,
+    "endorseCount": 402,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1495555200000,
@@ -8165,7 +8240,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 4600,
+    "needToEndorseCount": 4598,
     "outcome": "<p>國人更容易換購平價且更安全的新車，不但減少路上老車故障發生危險的機率，</p> \n<p>也減少老車的空氣污染，對環境及交通安全都有幫助，</p> \n<p>也可以減輕家庭購車負擔，縮短國人換車的週期，</p> \n<p>也可以增加國產車的銷量。</p>",
     "outline": "最近有不少親朋好友想換車，但車價太貴總是一個問題，在離開有捷運的都市，要接送行動不便的老人及小孩，汽車真的是一個民生必需品。但由於政府的高稅制造成台灣的路上老車滿街跑，比印尼還不如。政府對國內車廠的保護太久了!也不見國產車銷國外有什麼競爭力，只會利用稅制壟斷國內汽車市場，大賺小老百姓的錢。目前台灣進口小汽車應繳進口稅費(包括進口稅、貨物稅、營業稅及推廣貿易服務費)（一）進口稅=完稅價格×進口稅率(",
     "proposer": {
@@ -8197,6 +8272,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -8272,6 +8348,7 @@
       "master": {
         "gpivpAlias": "勞動部",
         "icon": "goi11.jpg",
+        "isShow": true,
         "orgOrder": 1200,
         "orgStatus": true,
         "organizationId": "A17000000J",
@@ -8347,6 +8424,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -8487,6 +8565,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -8562,6 +8641,7 @@
       "master": {
         "gpivpAlias": "財政部",
         "icon": "goi4.jpg",
+        "isShow": true,
         "orgOrder": 500,
         "orgStatus": true,
         "organizationId": "A07000000D",
@@ -8637,6 +8717,7 @@
       "master": {
         "gpivpAlias": "衛福部",
         "icon": "goi10.jpg",
+        "isShow": true,
         "orgOrder": 1000,
         "orgStatus": true,
         "organizationId": "A21000000I",
@@ -8650,6 +8731,22 @@
     "approvedDueDate": 1489593599000,
     "approvedTime": 1488350643000,
     "attachments": [
+      {
+        "attachmentDescription": "",
+        "attachmentIcon": "",
+        "attachmentName": "PTT CPAP台灣售價.png",
+        "attachmentParentUid": "",
+        "attachmentPath": "/data/attachment/44d5a65e-6311-4e92-adca-28c3766c3600.png",
+        "attachmentType": 1,
+        "attachmentUid": "5f98d117-4767-4be3-b2d1-71921f970bba",
+        "attachmentUrl": "/attachments/5f98d117-4767-4be3-b2d1-71921f970bba",
+        "baseName": "PTT CPAP台灣售價.png",
+        "childAttachments": [],
+        "downloadUrl": "/attachments/5f98d117-4767-4be3-b2d1-71921f970bba/download/PTT CPAP台灣售價.png",
+        "fileExtension": "png",
+        "sectionUid": "",
+        "updateDate": 1487910713000
+      },
       {
         "attachmentDescription": "",
         "attachmentIcon": "",
@@ -8694,22 +8791,6 @@
         "baseName": "台灣部落格CPAP售價表.png",
         "childAttachments": [],
         "downloadUrl": "/attachments/66f40b5a-bbf8-4593-8420-136b46adbdc9/download/台灣部落格CPAP售價表.png",
-        "fileExtension": "png",
-        "sectionUid": "",
-        "updateDate": 1487910713000
-      },
-      {
-        "attachmentDescription": "",
-        "attachmentIcon": "",
-        "attachmentName": "PTT CPAP台灣售價.png",
-        "attachmentParentUid": "",
-        "attachmentPath": "/data/attachment/44d5a65e-6311-4e92-adca-28c3766c3600.png",
-        "attachmentType": 1,
-        "attachmentUid": "5f98d117-4767-4be3-b2d1-71921f970bba",
-        "attachmentUrl": "/attachments/5f98d117-4767-4be3-b2d1-71921f970bba",
-        "baseName": "PTT CPAP台灣售價.png",
-        "childAttachments": [],
-        "downloadUrl": "/attachments/5f98d117-4767-4be3-b2d1-71921f970bba/download/PTT CPAP台灣售價.png",
         "fileExtension": "png",
         "sectionUid": "",
         "updateDate": 1487910713000
@@ -9037,6 +9118,7 @@
       "master": {
         "gpivpAlias": "法務部",
         "icon": "goi6.jpg",
+        "isShow": true,
         "orgOrder": 700,
         "orgStatus": true,
         "organizationId": "A11000000F",
@@ -9112,6 +9194,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -9187,6 +9270,7 @@
       "master": {
         "gpivpAlias": "金管會",
         "icon": "goi22.jpg",
+        "isShow": true,
         "orgOrder": 2400,
         "orgStatus": true,
         "organizationId": "A45000000D",
@@ -9262,6 +9346,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -9341,7 +9426,7 @@
     "approvedTime": 1487410695000,
     "attachments": [],
     "attendMeeting": false,
-    "attentionCount": 154,
+    "attentionCount": 155,
     "caseNumber": "20170217-1386",
     "commentCount": 0,
     "content": "<p>提議於新北市、高雄市、台中市、台南市、桃園市五大直轄市建設海釣公園<br>初步統計台灣約有230萬名釣客，相當於每10個台灣居民就有一位是釣魚的愛好者。<br>鄰近國家日本也是一個讓愛釣魚的國家，日本官方統計日本釣魚人口約占日本人口的20%。<br>在台灣的釣客只能在危險的海域上作釣，或是在漁港或是商港作釣，缺乏一個安全友善的釣魚環境。<br>而在日本海釣公園已經非常盛行了，台灣可藉以觀摩取經，以台灣的建設能力打造出一座世界級的釣魚平台絕非難事。<br>因此建議依照發展觀光條例第 二 章 規劃建設第7、8、9、10、11、12條進行開發建設。</p>",
@@ -9353,7 +9438,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 1469,
+    "endorseCount": 1470,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1492617600000,
@@ -9370,7 +9455,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 3531,
+    "needToEndorseCount": 3530,
     "outcome": "<p>海釣公園採收費制，作為將來發展釣魚證的基礎建設。<br>建築結構簡單，管理方便，投資成本低，在日本甚至作為都市活化建設的一環。<br>在日本有浮動式與固定式兩種，都非常適合台灣發展的借鏡。<br>一、 這是低成本高報酬率的公共建設。<br>二、 可以給台灣釣友一個友善的安全的釣魚環境。<br>三、 收取的入場費可提供一定比率的費用，由水試所作為資源保育的運作基金。<br>四、 因為是鋼管式結構，可打造出魚類的最移居的生態環境。<br>五、 建設位置為海上，取得成本相對較低。<br>六、 可活化所在區域的商業環境，帶來人潮。<br>七、 因應老年化的一項基礎建設。<br>八、 可降低因釣魚而產生的事故死亡的人數。<br>九、 整體建勝不破壞自然景觀資源，有助於發展地方觀光。<br>十、 台灣有親潮和黑潮經過，可作為帶動國際觀光的訴求。</p>",
     "outline": "提議於新北市、高雄市、台中市、台南市、桃園市五大直轄市建設海釣公園初步統計台灣約有230萬名釣客，相當於每10個台灣居民就有一位是釣魚的愛好者。鄰近國家日本也是一個讓愛釣魚的國家，日本官方統計日本釣魚人口約占日本人口的20%。在台灣的釣客只能在危險的海域上作釣，或是在漁港或是商港作釣，缺乏一個安全友善的釣魚環境。而在日本海釣公園已經非常盛行了，台灣可藉以觀摩取經，以台灣的建設能力打造出一座世界級的",
     "proposer": {
@@ -9389,7 +9474,7 @@
     "sortedAttachments": [],
     "status": "FirstSigned",
     "title": "請於新北市、高雄市、台中市、台南市、桃園市五大直轄市建設海釣公園。",
-    "updateDate": 1490613958000,
+    "updateDate": 1490686135000,
     "urgeFlag": false,
     "version": "EndorseStage_2016",
     "videoLink": "https://youtu.be/zac4qolKk5E",

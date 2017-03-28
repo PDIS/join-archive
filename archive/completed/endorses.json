@@ -6,6 +6,7 @@
       "master": {
         "gpivpAlias": "國防部",
         "icon": "goi3.jpg",
+        "isShow": true,
         "orgOrder": 400,
         "orgStatus": true,
         "organizationId": "A05000000C",
@@ -81,6 +82,7 @@
       "master": {
         "gpivpAlias": "衛福部",
         "icon": "goi10.jpg",
+        "isShow": true,
         "orgOrder": 1000,
         "orgStatus": true,
         "organizationId": "A21000000I",
@@ -156,6 +158,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -204,6 +207,7 @@
         "organization": {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -235,6 +239,7 @@
         "organization": {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -294,6 +299,7 @@
       "master": {
         "gpivpAlias": "衛福部",
         "icon": "goi10.jpg",
+        "isShow": true,
         "orgOrder": 1000,
         "orgStatus": true,
         "organizationId": "A21000000I",
@@ -342,6 +348,7 @@
         "organization": {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -406,6 +413,7 @@
         "organization": {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -465,6 +473,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -477,6 +486,7 @@
         {
           "gpivpAlias": "國發會",
           "icon": "goi13.jpg",
+          "isShow": true,
           "orgOrder": 1400,
           "orgStatus": true,
           "organizationId": "A41000000G",
@@ -525,6 +535,7 @@
         "organization": {
           "gpivpAlias": "交通部",
           "icon": "goi8.jpg",
+          "isShow": true,
           "orgOrder": 900,
           "orgStatus": true,
           "organizationId": "315000000H",
@@ -556,6 +567,7 @@
         "organization": {
           "gpivpAlias": "交通部",
           "icon": "goi8.jpg",
+          "isShow": true,
           "orgOrder": 900,
           "orgStatus": true,
           "organizationId": "315000000H",
@@ -636,6 +648,7 @@
         "organization": {
           "gpivpAlias": "交通部",
           "icon": "goi8.jpg",
+          "isShow": true,
           "orgOrder": 900,
           "orgStatus": true,
           "organizationId": "315000000H",
@@ -728,6 +741,7 @@
       "master": {
         "gpivpAlias": "國發會",
         "icon": "goi13.jpg",
+        "isShow": true,
         "orgOrder": 1400,
         "orgStatus": true,
         "organizationId": "A41000000G",
@@ -776,6 +790,7 @@
         "organization": {
           "gpivpAlias": "國發會",
           "icon": "goi13.jpg",
+          "isShow": true,
           "orgOrder": 1400,
           "orgStatus": true,
           "organizationId": "A41000000G",
@@ -807,6 +822,7 @@
         "organization": {
           "gpivpAlias": "國發會",
           "icon": "goi13.jpg",
+          "isShow": true,
           "orgOrder": 1400,
           "orgStatus": true,
           "organizationId": "A41000000G",
@@ -951,6 +967,7 @@
         "organization": {
           "gpivpAlias": "國發會",
           "icon": "goi13.jpg",
+          "isShow": true,
           "orgOrder": 1400,
           "orgStatus": true,
           "organizationId": "A41000000G",
@@ -1079,6 +1096,7 @@
         "organization": {
           "gpivpAlias": "國發會",
           "icon": "goi13.jpg",
+          "isShow": true,
           "orgOrder": 1400,
           "orgStatus": true,
           "organizationId": "A41000000G",
@@ -1219,6 +1237,7 @@
       "master": {
         "gpivpAlias": "衛福部",
         "icon": "goi10.jpg",
+        "isShow": true,
         "orgOrder": 1000,
         "orgStatus": true,
         "organizationId": "A21000000I",
@@ -1267,6 +1286,7 @@
         "organization": {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -1298,6 +1318,7 @@
         "organization": {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -1346,6 +1367,7 @@
         "organization": {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -1410,6 +1432,7 @@
         "organization": {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -1469,6 +1492,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -1517,6 +1541,7 @@
         "organization": {
           "gpivpAlias": "交通部",
           "icon": "goi8.jpg",
+          "isShow": true,
           "orgOrder": 900,
           "orgStatus": true,
           "organizationId": "315000000H",
@@ -1548,6 +1573,7 @@
         "organization": {
           "gpivpAlias": "交通部",
           "icon": "goi8.jpg",
+          "isShow": true,
           "orgOrder": 900,
           "orgStatus": true,
           "organizationId": "315000000H",
@@ -1607,6 +1633,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -1655,6 +1682,7 @@
         "organization": {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -1714,6 +1742,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -1795,6 +1824,7 @@
         "organization": {
           "gpivpAlias": "交通部",
           "icon": "goi8.jpg",
+          "isShow": true,
           "orgOrder": 900,
           "orgStatus": true,
           "organizationId": "315000000H",
@@ -1826,6 +1856,7 @@
         "organization": {
           "gpivpAlias": "交通部",
           "icon": "goi8.jpg",
+          "isShow": true,
           "orgOrder": 900,
           "orgStatus": true,
           "organizationId": "315000000H",
@@ -1902,6 +1933,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -1950,6 +1982,7 @@
         "organization": {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -1981,6 +2014,7 @@
         "organization": {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -2040,6 +2074,7 @@
       "master": {
         "gpivpAlias": "衛福部",
         "icon": "goi10.jpg",
+        "isShow": true,
         "orgOrder": 1000,
         "orgStatus": true,
         "organizationId": "A21000000I",
@@ -2088,6 +2123,7 @@
         "organization": {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -2124,6 +2160,7 @@
         "organization": {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -2172,6 +2209,7 @@
         "organization": {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -2231,6 +2269,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -2279,6 +2318,7 @@
         "organization": {
           "gpivpAlias": "交通部",
           "icon": "goi8.jpg",
+          "isShow": true,
           "orgOrder": 900,
           "orgStatus": true,
           "organizationId": "315000000H",
@@ -2338,6 +2378,7 @@
       "master": {
         "gpivpAlias": "法務部",
         "icon": "goi6.jpg",
+        "isShow": true,
         "orgOrder": 700,
         "orgStatus": true,
         "organizationId": "A11000000F",
@@ -2386,6 +2427,7 @@
         "organization": {
           "gpivpAlias": "法務部",
           "icon": "goi6.jpg",
+          "isShow": true,
           "orgOrder": 700,
           "orgStatus": true,
           "organizationId": "A11000000F",
@@ -2526,6 +2568,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -2574,6 +2617,7 @@
         "organization": {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -2633,6 +2677,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -2681,6 +2726,7 @@
         "organization": {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -2712,6 +2758,7 @@
         "organization": {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -2771,6 +2818,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -2783,6 +2831,7 @@
         {
           "gpivpAlias": "經濟部",
           "icon": "goi7.jpg",
+          "isShow": true,
           "orgOrder": 800,
           "orgStatus": true,
           "organizationId": "313000000G",
@@ -2831,6 +2880,7 @@
         "organization": {
           "gpivpAlias": "交通部",
           "icon": "goi8.jpg",
+          "isShow": true,
           "orgOrder": 900,
           "orgStatus": true,
           "organizationId": "315000000H",
@@ -2862,6 +2912,7 @@
         "organization": {
           "gpivpAlias": "交通部",
           "icon": "goi8.jpg",
+          "isShow": true,
           "orgOrder": 900,
           "orgStatus": true,
           "organizationId": "315000000H",
@@ -2893,6 +2944,7 @@
         "organization": {
           "gpivpAlias": "交通部",
           "icon": "goi8.jpg",
+          "isShow": true,
           "orgOrder": 900,
           "orgStatus": true,
           "organizationId": "315000000H",
@@ -2952,6 +3004,7 @@
       "master": {
         "gpivpAlias": "國發會",
         "icon": "goi13.jpg",
+        "isShow": true,
         "orgOrder": 1400,
         "orgStatus": true,
         "organizationId": "A41000000G",
@@ -2964,6 +3017,7 @@
         {
           "gpivpAlias": "交通部",
           "icon": "goi8.jpg",
+          "isShow": true,
           "orgOrder": 900,
           "orgStatus": true,
           "organizationId": "315000000H",
@@ -2975,6 +3029,7 @@
         {
           "gpivpAlias": "人事總處",
           "icon": "goi17.jpg",
+          "isShow": true,
           "orgOrder": 1800,
           "orgStatus": true,
           "organizationId": "A58000000A",
@@ -3023,6 +3078,7 @@
         "organization": {
           "gpivpAlias": "國發會",
           "icon": "goi13.jpg",
+          "isShow": true,
           "orgOrder": 1400,
           "orgStatus": true,
           "organizationId": "A41000000G",
@@ -3151,6 +3207,7 @@
         "organization": {
           "gpivpAlias": "國發會",
           "icon": "goi13.jpg",
+          "isShow": true,
           "orgOrder": 1400,
           "orgStatus": true,
           "organizationId": "A41000000G",
@@ -3182,6 +3239,7 @@
         "organization": {
           "gpivpAlias": "國發會",
           "icon": "goi13.jpg",
+          "isShow": true,
           "orgOrder": 1400,
           "orgStatus": true,
           "organizationId": "A41000000G",
@@ -3262,6 +3320,7 @@
         "organization": {
           "gpivpAlias": "國發會",
           "icon": "goi13.jpg",
+          "isShow": true,
           "orgOrder": 1400,
           "orgStatus": true,
           "organizationId": "A41000000G",
@@ -3310,6 +3369,7 @@
         "organization": {
           "gpivpAlias": "國發會",
           "icon": "goi13.jpg",
+          "isShow": true,
           "orgOrder": 1400,
           "orgStatus": true,
           "organizationId": "A41000000G",
@@ -3369,6 +3429,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -3417,6 +3478,7 @@
         "organization": {
           "gpivpAlias": "交通部",
           "icon": "goi8.jpg",
+          "isShow": true,
           "orgOrder": 900,
           "orgStatus": true,
           "organizationId": "315000000H",
@@ -3476,6 +3538,7 @@
       "master": {
         "gpivpAlias": "內政部",
         "icon": "goi1.jpg",
+        "isShow": true,
         "orgOrder": 200,
         "orgStatus": true,
         "organizationId": "301000000A",
@@ -3488,6 +3551,7 @@
         {
           "gpivpAlias": "財政部",
           "icon": "goi4.jpg",
+          "isShow": true,
           "orgOrder": 500,
           "orgStatus": true,
           "organizationId": "A07000000D",
@@ -3536,6 +3600,7 @@
         "organization": {
           "gpivpAlias": "內政部",
           "icon": "goi1.jpg",
+          "isShow": true,
           "orgOrder": 200,
           "orgStatus": true,
           "organizationId": "301000000A",
@@ -3595,6 +3660,7 @@
       "master": {
         "gpivpAlias": "經濟部",
         "icon": "goi7.jpg",
+        "isShow": true,
         "orgOrder": 800,
         "orgStatus": true,
         "organizationId": "313000000G",
@@ -3607,6 +3673,7 @@
         {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -3618,6 +3685,7 @@
         {
           "gpivpAlias": "農委會",
           "icon": "goi25.jpg",
+          "isShow": true,
           "orgOrder": 2700,
           "orgStatus": true,
           "organizationId": "345000000G",
@@ -3666,6 +3734,7 @@
         "organization": {
           "gpivpAlias": "國發會",
           "icon": "goi13.jpg",
+          "isShow": true,
           "orgOrder": 1400,
           "orgStatus": true,
           "organizationId": "A41000000G",
@@ -3730,6 +3799,7 @@
         "organization": {
           "gpivpAlias": "國發會",
           "icon": "goi13.jpg",
+          "isShow": true,
           "orgOrder": 1400,
           "orgStatus": true,
           "organizationId": "A41000000G",
@@ -3778,6 +3848,7 @@
         "organization": {
           "gpivpAlias": "國發會",
           "icon": "goi13.jpg",
+          "isShow": true,
           "orgOrder": 1400,
           "orgStatus": true,
           "organizationId": "A41000000G",
@@ -3886,6 +3957,7 @@
       "master": {
         "gpivpAlias": "人事總處",
         "icon": "goi17.jpg",
+        "isShow": true,
         "orgOrder": 1800,
         "orgStatus": true,
         "organizationId": "A58000000A",
@@ -3898,6 +3970,7 @@
         {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -3946,6 +4019,7 @@
         "organization": {
           "gpivpAlias": "人事總處",
           "icon": "goi17.jpg",
+          "isShow": true,
           "orgOrder": 1800,
           "orgStatus": true,
           "organizationId": "A58000000A",
@@ -4005,6 +4079,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -4053,6 +4128,7 @@
         "organization": {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -4084,6 +4160,7 @@
         "organization": {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -4143,6 +4220,7 @@
       "master": {
         "gpivpAlias": "內政部",
         "icon": "goi1.jpg",
+        "isShow": true,
         "orgOrder": 200,
         "orgStatus": true,
         "organizationId": "301000000A",
@@ -4155,6 +4233,7 @@
         {
           "gpivpAlias": "中選會",
           "icon": "goi29.jpg",
+          "isShow": true,
           "orgOrder": 3200,
           "orgStatus": true,
           "organizationId": "A61000000A",
@@ -4203,6 +4282,7 @@
         "organization": {
           "gpivpAlias": "內政部",
           "icon": "goi1.jpg",
+          "isShow": true,
           "orgOrder": 200,
           "orgStatus": true,
           "organizationId": "301000000A",
@@ -4234,6 +4314,7 @@
         "organization": {
           "gpivpAlias": "內政部",
           "icon": "goi1.jpg",
+          "isShow": true,
           "orgOrder": 200,
           "orgStatus": true,
           "organizationId": "301000000A",
@@ -4293,6 +4374,7 @@
       "master": {
         "gpivpAlias": "衛福部",
         "icon": "goi10.jpg",
+        "isShow": true,
         "orgOrder": 1000,
         "orgStatus": true,
         "organizationId": "A21000000I",
@@ -4341,6 +4423,7 @@
         "organization": {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -4372,6 +4455,7 @@
         "organization": {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -4420,6 +4504,7 @@
         "organization": {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -4484,6 +4569,7 @@
         "organization": {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -4543,6 +4629,7 @@
       "master": {
         "gpivpAlias": "法務部",
         "icon": "goi6.jpg",
+        "isShow": true,
         "orgOrder": 700,
         "orgStatus": true,
         "organizationId": "A11000000F",
@@ -4555,6 +4642,7 @@
         {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -4603,6 +4691,7 @@
         "organization": {
           "gpivpAlias": "法務部",
           "icon": "goi6.jpg",
+          "isShow": true,
           "orgOrder": 700,
           "orgStatus": true,
           "organizationId": "A11000000F",
@@ -4662,6 +4751,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -4674,6 +4764,7 @@
         {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -4722,6 +4813,7 @@
         "organization": {
           "gpivpAlias": "交通部",
           "icon": "goi8.jpg",
+          "isShow": true,
           "orgOrder": 900,
           "orgStatus": true,
           "organizationId": "315000000H",
@@ -4781,6 +4873,7 @@
       "master": {
         "gpivpAlias": "勞動部",
         "icon": "goi11.jpg",
+        "isShow": true,
         "orgOrder": 1200,
         "orgStatus": true,
         "organizationId": "A17000000J",
@@ -4793,6 +4886,7 @@
         {
           "gpivpAlias": "人事總處",
           "icon": "goi17.jpg",
+          "isShow": true,
           "orgOrder": 1800,
           "orgStatus": true,
           "organizationId": "A58000000A",
@@ -4841,6 +4935,7 @@
         "organization": {
           "gpivpAlias": "勞動部",
           "icon": "goi11.jpg",
+          "isShow": true,
           "orgOrder": 1200,
           "orgStatus": true,
           "organizationId": "A17000000J",
@@ -4872,6 +4967,7 @@
         "organization": {
           "gpivpAlias": "勞動部",
           "icon": "goi11.jpg",
+          "isShow": true,
           "orgOrder": 1200,
           "orgStatus": true,
           "organizationId": "A17000000J",
@@ -4903,6 +4999,7 @@
         "organization": {
           "gpivpAlias": "勞動部",
           "icon": "goi11.jpg",
+          "isShow": true,
           "orgOrder": 1200,
           "orgStatus": true,
           "organizationId": "A17000000J",
@@ -4962,6 +5059,7 @@
       "master": {
         "gpivpAlias": "衛福部",
         "icon": "goi10.jpg",
+        "isShow": true,
         "orgOrder": 1000,
         "orgStatus": true,
         "organizationId": "A21000000I",
@@ -5010,6 +5108,7 @@
         "organization": {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -5091,6 +5190,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -5139,6 +5239,7 @@
         "organization": {
           "gpivpAlias": "交通部",
           "icon": "goi8.jpg",
+          "isShow": true,
           "orgOrder": 900,
           "orgStatus": true,
           "organizationId": "315000000H",
@@ -5198,6 +5299,7 @@
       "master": {
         "gpivpAlias": "國發會",
         "icon": "goi13.jpg",
+        "isShow": true,
         "orgOrder": 1400,
         "orgStatus": true,
         "organizationId": "A41000000G",
@@ -5210,6 +5312,7 @@
         {
           "gpivpAlias": "科技部",
           "icon": "goi12.jpg",
+          "isShow": true,
           "orgOrder": 1300,
           "orgStatus": true,
           "organizationId": "A27000000G",
@@ -5291,6 +5394,7 @@
         "organization": {
           "gpivpAlias": "國發會",
           "icon": "goi13.jpg",
+          "isShow": true,
           "orgOrder": 1400,
           "orgStatus": true,
           "organizationId": "A41000000G",
@@ -5350,6 +5454,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -5398,6 +5503,7 @@
         "organization": {
           "gpivpAlias": "交通部",
           "icon": "goi8.jpg",
+          "isShow": true,
           "orgOrder": 900,
           "orgStatus": true,
           "organizationId": "315000000H",
@@ -5457,6 +5563,7 @@
       "master": {
         "gpivpAlias": "法務部",
         "icon": "goi6.jpg",
+        "isShow": true,
         "orgOrder": 700,
         "orgStatus": true,
         "organizationId": "A11000000F",
@@ -5505,6 +5612,7 @@
         "organization": {
           "gpivpAlias": "法務部",
           "icon": "goi6.jpg",
+          "isShow": true,
           "orgOrder": 700,
           "orgStatus": true,
           "organizationId": "A11000000F",
@@ -5629,6 +5737,7 @@
       "master": {
         "gpivpAlias": "內政部",
         "icon": "goi1.jpg",
+        "isShow": true,
         "orgOrder": 200,
         "orgStatus": true,
         "organizationId": "301000000A",
@@ -5641,6 +5750,7 @@
         {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -5652,6 +5762,7 @@
         {
           "gpivpAlias": "金管會",
           "icon": "goi22.jpg",
+          "isShow": true,
           "orgOrder": 2400,
           "orgStatus": true,
           "organizationId": "A45000000D",
@@ -5663,6 +5774,7 @@
         {
           "gpivpAlias": "農委會",
           "icon": "goi25.jpg",
+          "isShow": true,
           "orgOrder": 2700,
           "orgStatus": true,
           "organizationId": "345000000G",
@@ -5711,6 +5823,7 @@
         "organization": {
           "gpivpAlias": "內政部",
           "icon": "goi1.jpg",
+          "isShow": true,
           "orgOrder": 200,
           "orgStatus": true,
           "organizationId": "301000000A",
@@ -5931,6 +6044,7 @@
       "master": {
         "gpivpAlias": "人事總處",
         "icon": "goi17.jpg",
+        "isShow": true,
         "orgOrder": 1800,
         "orgStatus": true,
         "organizationId": "A58000000A",
@@ -5979,6 +6093,7 @@
         "organization": {
           "gpivpAlias": "人事總處",
           "icon": "goi17.jpg",
+          "isShow": true,
           "orgOrder": 1800,
           "orgStatus": true,
           "organizationId": "A58000000A",
@@ -6038,6 +6153,7 @@
       "master": {
         "gpivpAlias": "法務部",
         "icon": "goi6.jpg",
+        "isShow": true,
         "orgOrder": 700,
         "orgStatus": true,
         "organizationId": "A11000000F",
@@ -6050,6 +6166,7 @@
         {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -6098,6 +6215,7 @@
         "organization": {
           "gpivpAlias": "法務部",
           "icon": "goi6.jpg",
+          "isShow": true,
           "orgOrder": 700,
           "orgStatus": true,
           "organizationId": "A11000000F",
@@ -6129,6 +6247,7 @@
         "organization": {
           "gpivpAlias": "法務部",
           "icon": "goi6.jpg",
+          "isShow": true,
           "orgOrder": 700,
           "orgStatus": true,
           "organizationId": "A11000000F",
@@ -6188,6 +6307,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -6200,6 +6320,7 @@
         {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -6248,6 +6369,7 @@
         "organization": {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -6279,6 +6401,7 @@
         "organization": {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -6310,6 +6433,7 @@
         "organization": {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -6369,6 +6493,7 @@
       "master": {
         "gpivpAlias": "財政部",
         "icon": "goi4.jpg",
+        "isShow": true,
         "orgOrder": 500,
         "orgStatus": true,
         "organizationId": "A07000000D",
@@ -6417,6 +6542,7 @@
         "organization": {
           "gpivpAlias": "財政部",
           "icon": "goi4.jpg",
+          "isShow": true,
           "orgOrder": 500,
           "orgStatus": true,
           "organizationId": "A07000000D",
@@ -6493,6 +6619,7 @@
       "master": {
         "gpivpAlias": "交通部",
         "icon": "goi8.jpg",
+        "isShow": true,
         "orgOrder": 900,
         "orgStatus": true,
         "organizationId": "315000000H",
@@ -6505,6 +6632,7 @@
         {
           "gpivpAlias": "內政部",
           "icon": "goi1.jpg",
+          "isShow": true,
           "orgOrder": 200,
           "orgStatus": true,
           "organizationId": "301000000A",
@@ -6516,6 +6644,7 @@
         {
           "gpivpAlias": "環保署",
           "icon": "goi18.jpg",
+          "isShow": true,
           "orgOrder": 2000,
           "orgStatus": true,
           "organizationId": "355000000I",
@@ -6564,6 +6693,7 @@
         "organization": {
           "gpivpAlias": "交通部",
           "icon": "goi8.jpg",
+          "isShow": true,
           "orgOrder": 900,
           "orgStatus": true,
           "organizationId": "315000000H",
@@ -6623,6 +6753,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -6636,22 +6767,6 @@
     "approvedDueDate": 1483977599000,
     "approvedTime": 1482460955000,
     "attachments": [
-      {
-        "attachmentDescription": "",
-        "attachmentIcon": "",
-        "attachmentName": "同志協會1.jpg",
-        "attachmentParentUid": "",
-        "attachmentPath": "/data/attachment/470613189.jpg",
-        "attachmentType": 1,
-        "attachmentUid": "4162c579-b79a-4f11-829c-1936fa5cb792",
-        "attachmentUrl": "/attachments/4162c579-b79a-4f11-829c-1936fa5cb792",
-        "baseName": "同志協會1.jpg",
-        "childAttachments": [],
-        "downloadUrl": "/attachments/4162c579-b79a-4f11-829c-1936fa5cb792/download/同志協會1.jpg",
-        "fileExtension": "jpg",
-        "sectionUid": "",
-        "updateDate": 1482142446000
-      },
       {
         "attachmentDescription": "",
         "attachmentIcon": "",
@@ -6681,6 +6796,22 @@
         "childAttachments": [],
         "downloadUrl": "/attachments/6099f22f-be2b-4afe-8b32-5a23f9174c83/download/幼獅.png",
         "fileExtension": "png",
+        "sectionUid": "",
+        "updateDate": 1482142446000
+      },
+      {
+        "attachmentDescription": "",
+        "attachmentIcon": "",
+        "attachmentName": "同志協會1.jpg",
+        "attachmentParentUid": "",
+        "attachmentPath": "/data/attachment/470613189.jpg",
+        "attachmentType": 1,
+        "attachmentUid": "4162c579-b79a-4f11-829c-1936fa5cb792",
+        "attachmentUrl": "/attachments/4162c579-b79a-4f11-829c-1936fa5cb792",
+        "baseName": "同志協會1.jpg",
+        "childAttachments": [],
+        "downloadUrl": "/attachments/4162c579-b79a-4f11-829c-1936fa5cb792/download/同志協會1.jpg",
+        "fileExtension": "jpg",
         "sectionUid": "",
         "updateDate": 1482142446000
       }
@@ -6720,6 +6851,7 @@
         "organization": {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -6751,6 +6883,7 @@
         "organization": {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -6810,6 +6943,7 @@
       "master": {
         "gpivpAlias": "內政部",
         "icon": "goi1.jpg",
+        "isShow": true,
         "orgOrder": 200,
         "orgStatus": true,
         "organizationId": "301000000A",
@@ -6822,6 +6956,7 @@
         {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -6833,6 +6968,7 @@
         {
           "gpivpAlias": "法務部",
           "icon": "goi6.jpg",
+          "isShow": true,
           "orgOrder": 700,
           "orgStatus": true,
           "organizationId": "A11000000F",
@@ -6844,6 +6980,7 @@
         {
           "gpivpAlias": "文化部",
           "icon": "goi9.jpg",
+          "isShow": true,
           "orgOrder": 1100,
           "orgStatus": true,
           "organizationId": "A25000000E",
@@ -6892,6 +7029,7 @@
         "organization": {
           "gpivpAlias": "內政部",
           "icon": "goi1.jpg",
+          "isShow": true,
           "orgOrder": 200,
           "orgStatus": true,
           "organizationId": "301000000A",
@@ -6951,6 +7089,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -6999,6 +7138,7 @@
         "organization": {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -7075,6 +7215,7 @@
       "master": {
         "gpivpAlias": "財政部",
         "icon": "goi4.jpg",
+        "isShow": true,
         "orgOrder": 500,
         "orgStatus": true,
         "organizationId": "A07000000D",
@@ -7123,6 +7264,7 @@
         "organization": {
           "gpivpAlias": "財政部",
           "icon": "goi4.jpg",
+          "isShow": true,
           "orgOrder": 500,
           "orgStatus": true,
           "organizationId": "A07000000D",
@@ -7171,6 +7313,7 @@
         "organization": {
           "gpivpAlias": "財政部",
           "icon": "goi4.jpg",
+          "isShow": true,
           "orgOrder": 500,
           "orgStatus": true,
           "organizationId": "A07000000D",
@@ -7230,6 +7373,7 @@
       "master": {
         "gpivpAlias": "衛福部",
         "icon": "goi10.jpg",
+        "isShow": true,
         "orgOrder": 1000,
         "orgStatus": true,
         "organizationId": "A21000000I",
@@ -7242,6 +7386,7 @@
         {
           "gpivpAlias": "法務部",
           "icon": "goi6.jpg",
+          "isShow": true,
           "orgOrder": 700,
           "orgStatus": true,
           "organizationId": "A11000000F",
@@ -7290,6 +7435,7 @@
         "organization": {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -7338,6 +7484,7 @@
         "organization": {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -7397,6 +7544,7 @@
       "master": {
         "gpivpAlias": "",
         "icon": "",
+        "isShow": true,
         "orgOrder": 101,
         "orgStatus": true,
         "organizationId": "10001",
@@ -7409,6 +7557,7 @@
         {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -7457,6 +7606,7 @@
         "organization": {
           "gpivpAlias": "",
           "icon": "",
+          "isShow": true,
           "orgOrder": 101,
           "orgStatus": true,
           "organizationId": "10001",
@@ -7516,6 +7666,7 @@
       "master": {
         "gpivpAlias": "國防部",
         "icon": "goi3.jpg",
+        "isShow": true,
         "orgOrder": 400,
         "orgStatus": true,
         "organizationId": "A05000000C",
@@ -7528,6 +7679,7 @@
         {
           "gpivpAlias": "內政部",
           "icon": "goi1.jpg",
+          "isShow": true,
           "orgOrder": 200,
           "orgStatus": true,
           "organizationId": "301000000A",
@@ -7576,6 +7728,7 @@
         "organization": {
           "gpivpAlias": "國防部",
           "icon": "goi3.jpg",
+          "isShow": true,
           "orgOrder": 400,
           "orgStatus": true,
           "organizationId": "A05000000C",
@@ -7635,6 +7788,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -7683,6 +7837,7 @@
         "organization": {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -7714,6 +7869,7 @@
         "organization": {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -7745,6 +7901,7 @@
         "organization": {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -7804,6 +7961,7 @@
       "master": {
         "gpivpAlias": "文化部",
         "icon": "goi9.jpg",
+        "isShow": true,
         "orgOrder": 1100,
         "orgStatus": true,
         "organizationId": "A25000000E",
@@ -7852,6 +8010,7 @@
         "organization": {
           "gpivpAlias": "文化部",
           "icon": "goi9.jpg",
+          "isShow": true,
           "orgOrder": 1100,
           "orgStatus": true,
           "organizationId": "A25000000E",
@@ -7911,6 +8070,7 @@
       "master": {
         "gpivpAlias": "衛福部",
         "icon": "goi10.jpg",
+        "isShow": true,
         "orgOrder": 1000,
         "orgStatus": true,
         "organizationId": "A21000000I",
@@ -7959,6 +8119,7 @@
         "organization": {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -8055,6 +8216,7 @@
         "organization": {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -8114,6 +8276,7 @@
       "master": {
         "gpivpAlias": "內政部",
         "icon": "goi1.jpg",
+        "isShow": true,
         "orgOrder": 200,
         "orgStatus": true,
         "organizationId": "301000000A",
@@ -8162,6 +8325,7 @@
         "organization": {
           "gpivpAlias": "內政部",
           "icon": "goi1.jpg",
+          "isShow": true,
           "orgOrder": 200,
           "orgStatus": true,
           "organizationId": "301000000A",
@@ -8210,6 +8374,7 @@
         "organization": {
           "gpivpAlias": "內政部",
           "icon": "goi1.jpg",
+          "isShow": true,
           "orgOrder": 200,
           "orgStatus": true,
           "organizationId": "301000000A",
@@ -8258,6 +8423,7 @@
         "organization": {
           "gpivpAlias": "內政部",
           "icon": "goi1.jpg",
+          "isShow": true,
           "orgOrder": 200,
           "orgStatus": true,
           "organizationId": "301000000A",
@@ -8317,6 +8483,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -8365,6 +8532,7 @@
         "organization": {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -8396,6 +8564,7 @@
         "organization": {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -8455,6 +8624,7 @@
       "master": {
         "gpivpAlias": "內政部",
         "icon": "goi1.jpg",
+        "isShow": true,
         "orgOrder": 200,
         "orgStatus": true,
         "organizationId": "301000000A",
@@ -8503,6 +8673,7 @@
         "organization": {
           "gpivpAlias": "內政部",
           "icon": "goi1.jpg",
+          "isShow": true,
           "orgOrder": 200,
           "orgStatus": true,
           "organizationId": "301000000A",
@@ -8534,6 +8705,7 @@
         "organization": {
           "gpivpAlias": "內政部",
           "icon": "goi1.jpg",
+          "isShow": true,
           "orgOrder": 200,
           "orgStatus": true,
           "organizationId": "301000000A",
@@ -8565,6 +8737,7 @@
         "organization": {
           "gpivpAlias": "內政部",
           "icon": "goi1.jpg",
+          "isShow": true,
           "orgOrder": 200,
           "orgStatus": true,
           "organizationId": "301000000A",
@@ -8596,6 +8769,7 @@
         "organization": {
           "gpivpAlias": "內政部",
           "icon": "goi1.jpg",
+          "isShow": true,
           "orgOrder": 200,
           "orgStatus": true,
           "organizationId": "301000000A",
@@ -8655,6 +8829,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -8703,6 +8878,7 @@
         "organization": {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -8762,6 +8938,7 @@
       "master": {
         "gpivpAlias": "教育部",
         "icon": "goi5.jpg",
+        "isShow": true,
         "orgOrder": 600,
         "orgStatus": true,
         "organizationId": "A09000000E",
@@ -8810,6 +8987,7 @@
         "organization": {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -8841,6 +9019,7 @@
         "organization": {
           "gpivpAlias": "教育部",
           "icon": "goi5.jpg",
+          "isShow": true,
           "orgOrder": 600,
           "orgStatus": true,
           "organizationId": "A09000000E",
@@ -8900,6 +9079,7 @@
       "master": {
         "gpivpAlias": "衛福部",
         "icon": "goi10.jpg",
+        "isShow": true,
         "orgOrder": 1000,
         "orgStatus": true,
         "organizationId": "A21000000I",
@@ -8948,6 +9128,7 @@
         "organization": {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -8979,6 +9160,7 @@
         "organization": {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -9010,6 +9192,7 @@
         "organization": {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -9058,6 +9241,7 @@
         "organization": {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
@@ -9106,6 +9290,7 @@
         "organization": {
           "gpivpAlias": "衛福部",
           "icon": "goi10.jpg",
+          "isShow": true,
           "orgOrder": 1000,
           "orgStatus": true,
           "organizationId": "A21000000I",
