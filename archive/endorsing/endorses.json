@@ -391,7 +391,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 0,
+    "endorseCount": 1,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1496764800000,
@@ -408,7 +408,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 5000,
+    "needToEndorseCount": 4999,
     "outcome": "<p>影響居民呼吸健康</p> \n<p>環境污染</p>",
     "outline": "鴿子養在頂樓，隨風飄散味道與糞便的箘傳播，造成附近居民困擾，是否明確與登記養鴿場所與養鴿證照立案機制，管理方針",
     "proposer": {
@@ -1341,7 +1341,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 73,
+    "endorseCount": 75,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1496764800000,
@@ -1358,7 +1358,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 4927,
+    "needToEndorseCount": 4925,
     "outcome": "<p>一、有鑑於現行國內汽車市場因市場規模不大，已造成獨佔情況。市場中僅有大眾車較易銷售。但在多元原則下，部份車型、車款因國內產家無市場規模而不生產、不引進、不販售（如一般手排房車、特殊、冷門型）。</p> \n<p>二、國內汽車產業之研發、生產能力目前均較過有所提昇，但目前市場已漸漸獨佔情況下，無更新之挑戰，缺少相對比較、刺激之下，對於國內汽車工業之發展及消費都權益不非有利。</p> \n<p>三、對於特殊愛好之車友又無法在合理價格之下獲得喜好之愛車，仍有違返多元、開放之精神。</p> \n<p>四、對於降低個人進口汽車之檢驗程序，並不會造成國內汽車檢驗標準，如可依歐盟之檢驗文件代替，相信歐盟之安全、污染防制應大部較國內標準高。</p> \n<p>五、對於降低個人進口汽車之檢驗程序，可檢視在同樣關稅下、代理商或水貨商引進之車價、服務之優劣。</p> \n<p>六、會想個人進口汽車的人畢竟是少數，現行大部份雙B等高級轎車之水貨商絕對可以進口到夠便宜之高級轎車。但部份是國內真的買不到適合自己的車才會想國外引進，而國內又囿於市場規模無法生產，但若連個人引進都困難重重，實在無法接受。</p> \n<p>七、進口汽車繳交關稅天經地義，但如繳交過多檢驗費用與多過檢驗程序，對於想個人進口車輛之民眾無非是種不合理之門檻與障礙。</p>",
     "outline": "建議放寬個人進口之新車或年份較輕之車輛得以國外原廠之檢查報告替代繁瑣之進口車輛檢驗",
     "proposer": {
@@ -2951,6 +2951,22 @@
       {
         "attachmentDescription": "",
         "attachmentIcon": "",
+        "attachmentName": "超完車回原車道.jpg",
+        "attachmentParentUid": "",
+        "attachmentPath": "/data/attachment/225f5786-59e4-458a-a34f-ccf4a6d42609.jpg",
+        "attachmentType": 1,
+        "attachmentUid": "b104c85c-523c-4984-85a5-f8555ab5bd10",
+        "attachmentUrl": "/attachments/b104c85c-523c-4984-85a5-f8555ab5bd10",
+        "baseName": "超完車回原車道.jpg",
+        "childAttachments": [],
+        "downloadUrl": "/attachments/b104c85c-523c-4984-85a5-f8555ab5bd10/download/超完車回原車道.jpg",
+        "fileExtension": "jpg",
+        "sectionUid": "",
+        "updateDate": 1487387072000
+      },
+      {
+        "attachmentDescription": "",
+        "attachmentIcon": "",
         "attachmentName": "內側為超車道保持最高速行駛.jpg",
         "attachmentParentUid": "",
         "attachmentPath": "/data/attachment/a295e76b-a8fe-4f5c-b235-d6ec81b87cfa.jpg",
@@ -3027,22 +3043,6 @@
         "fileExtension": "jpg",
         "sectionUid": "",
         "updateDate": 1487387072000
-      },
-      {
-        "attachmentDescription": "",
-        "attachmentIcon": "",
-        "attachmentName": "超完車回原車道.jpg",
-        "attachmentParentUid": "",
-        "attachmentPath": "/data/attachment/225f5786-59e4-458a-a34f-ccf4a6d42609.jpg",
-        "attachmentType": 1,
-        "attachmentUid": "b104c85c-523c-4984-85a5-f8555ab5bd10",
-        "attachmentUrl": "/attachments/b104c85c-523c-4984-85a5-f8555ab5bd10",
-        "baseName": "超完車回原車道.jpg",
-        "childAttachments": [],
-        "downloadUrl": "/attachments/b104c85c-523c-4984-85a5-f8555ab5bd10/download/超完車回原車道.jpg",
-        "fileExtension": "jpg",
-        "sectionUid": "",
-        "updateDate": 1487387072000
       }
     ],
     "attendMeeting": false,
@@ -3092,6 +3092,25 @@
     "slideshareLinkHtml": "",
     "slideshareReadLinkUrl": "",
     "sortedAttachments": [
+      {
+        "attachment": {
+          "attachmentDescription": "",
+          "attachmentIcon": "",
+          "attachmentName": "超完車回原車道.jpg",
+          "attachmentParentUid": "",
+          "attachmentPath": "/data/attachment/225f5786-59e4-458a-a34f-ccf4a6d42609.jpg",
+          "attachmentType": 1,
+          "attachmentUid": "b104c85c-523c-4984-85a5-f8555ab5bd10",
+          "attachmentUrl": "/attachments/b104c85c-523c-4984-85a5-f8555ab5bd10",
+          "baseName": "超完車回原車道.jpg",
+          "childAttachments": [],
+          "downloadUrl": "/attachments/b104c85c-523c-4984-85a5-f8555ab5bd10/download/超完車回原車道.jpg",
+          "fileExtension": "jpg",
+          "sectionUid": "",
+          "updateDate": 1487387072000
+        },
+        "id": ""
+      },
       {
         "attachment": {
           "attachmentDescription": "",
@@ -3181,25 +3200,6 @@
           "baseName": "內側為超車道保持最高速行駛出處.jpg",
           "childAttachments": [],
           "downloadUrl": "/attachments/785501ec-0e79-4b7e-8f01-bc0444356416/download/內側為超車道保持最高速行駛出處.jpg",
-          "fileExtension": "jpg",
-          "sectionUid": "",
-          "updateDate": 1487387072000
-        },
-        "id": ""
-      },
-      {
-        "attachment": {
-          "attachmentDescription": "",
-          "attachmentIcon": "",
-          "attachmentName": "超完車回原車道.jpg",
-          "attachmentParentUid": "",
-          "attachmentPath": "/data/attachment/225f5786-59e4-458a-a34f-ccf4a6d42609.jpg",
-          "attachmentType": 1,
-          "attachmentUid": "b104c85c-523c-4984-85a5-f8555ab5bd10",
-          "attachmentUrl": "/attachments/b104c85c-523c-4984-85a5-f8555ab5bd10",
-          "baseName": "超完車回原車道.jpg",
-          "childAttachments": [],
-          "downloadUrl": "/attachments/b104c85c-523c-4984-85a5-f8555ab5bd10/download/超完車回原車道.jpg",
           "fileExtension": "jpg",
           "sectionUid": "",
           "updateDate": 1487387072000
@@ -5056,7 +5056,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 301,
+    "endorseCount": 304,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1496592000000,
@@ -5073,7 +5073,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 4699,
+    "needToEndorseCount": 4696,
     "outcome": "<p><span style=\"font-size: 12pt;\"><strong>一.以源頭控管取代路邊稽查,事半功倍.</strong></span></p> \n<p><span style=\"font-size: 12pt;\"><strong>二.建立騎巧不騎吵的改裝車文化,改裝車得以不被噪音標籤汙名化.</strong></span></p> \n<p>&nbsp;</p> \n<p>參考資料</p> \n<p>一.<a title=\"另開新視窗前往*源頭控管汽機車排氣管改裝以杜絕噪音車*路邊稽查現場驗車現場開罰避免改回原廠管驗車漏洞\" href=\"https://noisecar.epa.gov.tw/public/New_317.asp\" target=\"_blank\">https://noisecar.epa.gov.tw/public/New_317.asp</a></p> \n<p>為取締改裝車輛噪音，105年環保署路邊稽查共稽查744場次，受稽查車輛達2萬6,936輛次。噪音檢測共4,274輛次，其中檢測不合格告發共2,718輛次。</p> \n<p>二.<a title=\"另開新視窗前往*源頭控管汽機車排氣管改裝以杜絕噪音車*路邊稽查現場驗車現場開罰避免改回原廠管驗車漏洞\" href=\"http://www.appledaily.com.tw/realtimenews/article/new/20170214/1055977\" target=\"_blank\">http://www.appledaily.com.tw/realtimenews/article/new/20170214/1055977<br></a></p> \n<p>2017年02月14日16:01 <br>汽機車改裝排氣管發出的轟隆噪音聲響，相當擾民，去年民眾檢舉件數超過10萬輛次，實際檢測違規率卻只有2%，環保署檢討遭檢舉車輛在到檢時會先改回原廠排氣管，規避檢查，將從5月起在北北基桃及嘉義市等5縣市，試辦遭檢舉車輛到檢合格，張貼合格標識，拍照上傳雲端，未來若路邊稽查或在遭民眾拍照檢舉，比對排氣管沒有合格標識(代表改裝)，將直接依《噪音管制法》開罰3000至3萬元罰款。<br>環保署空保處長蔡鴻德說，針對民眾陳情最多的改裝車噪音，擬定幾個措施步驟，除了被檢舉車輛到檢後要張貼合格標識外，第2項是今年起將會陸續配合智慧路燈，裝設噪音微型感測，進行車輛噪音監測，預計全台4年內要裝設1萬200台，環署也將針對監測數據研析，針對音量較大的路段，將會加強車輛噪音攔查。<br>蔡鴻德說，第3步驟將會在後年起設置噪音照相篩選，預計全台會在後年起兩年內先針對重點「飆車」路段，設置可以同步車輛即時車速及噪音分貝值檢測，被拍到噪音較大者，由環保局通知到檢，如果是有被檢舉過，並且有「認證」過車輛，比對沒有合格標識，就可以直接開罰，藉此遏阻車輛改裝轟隆隆擾民。<br>根據現有《使用中機動車輛噪音妨害安寧檢舉辦法》，民眾具名檢舉噪音車輛，環保機關可要求被檢舉車主到檢，但許多車主會先將違規排氣管改回原廠排氣管，導致到檢違規開罰率非常低。<br>環署強調，遭檢舉車輛到檢，不一定非得是原廠，即使是改裝後的排氣管，只要能夠「合格」，就會拍照及認證，後續車輛若又被檢舉，比對照片明顯非「認證」過的排氣管，即予開罰，若比對是「認證」排氣管，也可省去車主再被通知到檢的不便，遭攔查時也可出示認證，免除約30分鐘的檢驗時間。 （洪敏隆／台北報導）</p> \n<p>三.<a href=\"http://www.ettoday.net/news/20150915/565099.htm\" target=\"_blank\" title=\"另開新視窗前往*源頭控管汽機車排氣管改裝以杜絕噪音車*路邊稽查現場驗車現場開罰避免改回原廠管驗車漏洞\">http://www.ettoday.net/news/20150915/565099.htm</a></p> \n<p>台南市的南台科技大學這學期才剛開學，校方就祭出一項新規定，有改裝機車排氣管的學生不能申請停車證，也不能進入校園。因為停車場臨近教室，附近民宅宿舍多，改裝機車進出聲浪太吵，履次遭到投訴。實際到機車行測試原廠和改管的聲音，兩者相差了大約20分貝左右，改管機車轟隆隆的聲音，的確讓不少人難以忍受。</p> \n<p>南台科技大學校門口擺了個大大的看板，上頭寫著改管不能申請停車證，怎麼才剛開學就突然多了這項規定？看一下學校周遭環境，停車場旁邊就是教室，附近還有民宅及學生宿舍，改管機車白天進出都還好，但一到晚上夜深人靜，轟隆作響的噪音就讓居民受不了。</p> \n<p>附近居民多次向學校抱怨，因此南台科大決定推新政策。生活輔導組長谷明輝解釋：「就是做稽查的動作，測試他的噪音分貝，告訴他這是影響到校園的安寧，所以我們會撤銷他的停車證。」</p> \n<p>&nbsp;</p> \n<p>&nbsp;</p>",
     "outline": "噪音車問題日益嚴重,已成全民公害,環保署現行措施主要問題為:一.環保局及警察局人力不足,路邊稽查緩不濟急.二.設置噪音照相篩選,由環保局通知到檢,機器設備設置曠日廢時且購置及維護所費不貲,且不可能所有路段都裝.三.改裝店家合法登記,改裝零件合法販售,但上路製造噪音卻違法,為人詬病.所以提出以下提議:一.源頭控管汽機車排氣管改裝路邊稽查事倍功半,每年新掛牌80萬輛機車只要1/10改裝就8萬輛了,路邊",
     "proposer": {
@@ -5362,7 +5362,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 2502,
+    "endorseCount": 2503,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1491926400000,
@@ -5379,7 +5379,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 2498,
+    "needToEndorseCount": 2497,
     "outcome": "<p>「睡眠呼吸中止症」有可能在睡眠中去世，睡眠呼吸中止症(OSA)患者罹患慢性病機率提升300%且恐短命近二十年，</p> \n<p>睡眠呼吸中止症(OSA)是因人在睡眠中，原先固定和撐開咽喉的肌肉鬆弛，堵住呼吸道以致呼吸困難，甚至可能因氣道完全堵塞而窒息，最明顯症狀即為打鼾，嚴重者在睡覺當中甚至會停止呼吸。根據國外學者研究【註1】指出，OSA患者罹患高血壓機率比一般人多1.4至 3.1 倍、心血管疾病為1.3至2.3 倍、心臟衰竭也提升至2.4倍，以及中風率增加到1.6倍；且因OSA導致睡眠不足而發生車禍的比率更是高達8倍。同研究也發現，在1,522名受試者當中，OSA患者在往後18年存活下來的機率比無OSA的一般人大幅下跌將近30%，顯示OSA患者不只有更高的慢性疾病罹患率，更具潛在的生命威脅。</p> \n<p>&nbsp;</p> \n<p>睡眠呼吸中止症除了反覆性的睡眠中斷使得睡眠品質不佳外，反覆性的睡眠中斷與血氧不足，會引發心臟負荷增加，因此睡眠呼吸中止症患者罹患高血壓、心肌梗塞、心絞痛的比率高於一般人。在精神認知方面的影響，由於夜間未獲良好的睡眠，易導致日間精神渙散、嗜睡、注意力不集中、認知與記憶力大幅減退，相對的，由於日間精神不佳、容易打瞌睡，發生交通事故與工作意外的比例也高。</p> \n<p>另有一案審核未通過之回覆如下</p> \n<p>(一)「單項陽壓呼吸器 (C－PAP)」佔醫療輔具補助資源大宗。<br>(二)屬疾病範疇，經呼吸器治療後，該障礙情形可改善，易造成未來風險之疾病，應積極治療。<br>(三)無實質性障礙狀態，且其生活功能、社經地位均優於其他類身心障礙者。<br>新制身心障礙(ICF)基準，係以身體結構及功能、活動參與及環境因素進行判定，係以障礙是否影響生活，而非單以疾病為鑑定依據，經綜合考量後，予以刪除。<br>因此本案不進入附議。</p> \n<p>&nbsp;</p> \n<p><strong><span style=\"font-size: 14pt;\">第一點提到，單項陽壓呼吸器 (C－PAP)」佔醫療輔具補助資源大宗。每人只能申請補助一次，患者也須自行負擔數萬元不等的金額，可見是真的需要的人才會進行購買及申請補助。政府這時不是更應該幫助需要幫助的民眾？</span></strong></p> \n<p><strong><span style=\"font-size: 14pt;\">第二點提到，經呼吸器治療後，該障礙情形可改善，但前提是仍必須持續使用呼吸器，並無法完全治療。</span></strong></p> \n<p><strong><span style=\"font-size: 14pt;\">第三點提到，係以身體結構及功能、活動參與及環境因素進行判定，係以障礙是否影響生活，而非單以疾病為鑑定依據。</span></strong></p> \n<p><strong><span style=\"font-size: 14pt;\">睡眠呼吸中止症的病患，由於日間精神不佳、容易打瞌睡，發生交通事故與工作意外的比例也高，明顯的影響到生活。</span></strong></p> \n<p><strong><span style=\"font-size: 14pt;\">難道生活功能、社經地位均優於其他類身心障礙者，就不能算是身心障礙？</span></strong></p> \n<p>&nbsp;</p> \n<p><span style=\"font-size: 24pt;\"><strong>強烈建議將「睡眠呼吸中止症」重新納入身心障礙</strong></span></p>",
     "outline": "提議內容或建議事項衛生福利部已於昨日發布修正案，正式取消睡眠呼吸中止身心障礙。發布修正條文106年1月5日，自發布日90日後實施，106年4月5日起實施新制。※政府單位公告資訊：http://ppt.cc/ilaT3點選【行政院公報】之連結後，會出現衛生福利部令106年1月5日衛部照字第1051564595號，修正「身心障礙者鑑定作業辦法」第十三條及第四條附表一、第五條附表二、附表三。一、依修正總",
     "proposer": {
@@ -6916,7 +6916,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 17,
+    "endorseCount": 18,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1495987200000,
@@ -6933,7 +6933,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 4983,
+    "needToEndorseCount": 4982,
     "outcome": "<p>男性在營區裡面操練，但同年齡的女性卻可以享受青春。</p>",
     "outline": "不應該只有男性要服兵役，因為這樣有違反憲法中的男女平等的疑慮，所以建議提出公投，讓社會大眾表達對這件事情的看法。",
     "proposer": {
@@ -9716,7 +9716,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 664,
+    "endorseCount": 665,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1496160000000,
@@ -9733,7 +9733,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 4336,
+    "needToEndorseCount": 4335,
     "outcome": "<p>1.&nbsp; 釐清〈性別平等教育法〉中知名詞語意，有助於降低社會疑慮，並鼓勵人民以民主方式爭取權益。</p> \n<p>2.&nbsp; 明文將家長委員進入各及性別平等委員會，除降低家長對於現有性別平等教育疑慮外，並可讓〈性別平等教育法〉違反人民基本權利部分，得以符合教育基本法第8條及《公民與政治權利國際公約》第18條及《經濟社會文化權利國際公約》第13條之意旨。</p> \n<p>3.&nbsp; 將現行社會及其他國家之多元文化納入性別平等教育內容中，除有助於將低我國人民對於東南亞國家人民之歧視不雅偏執外，更增進學童對於社會不同聲音有更大的包容及更完整的理性思辨基礎。</p> \n<p>4.&nbsp; 將性向中納入「後同志族群 (post-LGBTs)」之教導，除卻多元平等學習(即便會被同性所吸引但另有選擇)外，尚可降低傳統社會對於學校把小孩教成同志之疑慮。</p> \n<p>5.&nbsp; 憲法平等、無罪推定及司法行政分立乃民主政治不可或缺之部分，現行〈性別平等教育法〉賦予性別平等委員對於性侵害事件調查權力非但牴觸司法與行政分立原則，更對於「行為人」無罪推定視若無睹，且決論報告更對於上級主管機關及法院相對有所約束，根本影響人民陳情並訴求第三公正單位審議之權利，又無將父母親權明文納入之保障，明顯牴觸憲法，應以修正，限制行政調查之權限及相關調查原則，以維護人民及學童父母權益。</p> \n<p>6.&nbsp; 涉及修正部分，包括〈性別平等教育法〉：第1條、第2條、第7條、&nbsp;&nbsp;&nbsp; 第8條、第9條、第12條、第13條、第14條、第14-1條、第15條、&nbsp; 第17條、第18條、第19條、第21條、第22條、第30條及第35條，&nbsp; 共計17條文。</p> \n<p>&nbsp;</p>",
     "outline": "近日來社會因「同性婚姻」釋憲及立法引爆對於學童「性別教育」之嚴峻對立，推動同性婚姻人士所著重乃係人民權益平等，而文化保守人士所訴求乃是傳統倫理秩序，然而綜觀雙方之歧見之處乃屬於〈性別平等教育法〉中的名詞及語意不清楚所導致。故，基於恪遵憲法、落實多元平等及促進社會和諧，提案增修部分〈性別平等教育法修法〉條文，略述如下：1.我國憲法明文以「男女」作為性別基礎，為更明確表達及避免人民對於國家法律有所混淆",
     "proposer": {
@@ -10216,7 +10216,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 508,
+    "endorseCount": 509,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1495987200000,
@@ -10233,7 +10233,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 4492,
+    "needToEndorseCount": 4491,
     "outcome": "<p>1.拆合法基地根本就是，妨礙國家的通訊發展，我國通訊已經落後輸歐美日韓蠻多的</p> \n<p>2.拆除基地台影響許多有繳交電信費用的使用者，也妨礙許多電信商的發展建設，也讓費資源安裝效益不大的強波器</p> \n<p>3.基地台少，手機發出電磁波反而會提高，也讓手機更耗電</p>",
     "outline": "居民抗議基地台的問題，明明是合法的基地台還是被愚蠢的居民抗議拆台，政府應該更加重視這些合法基地台保障這些基地台別被只知道抗議的居民而拆台，基地台都是符合國家NCC的規範沒有超標的問題，目前也沒有任醫學證據能證實基地台的電磁波對人體有傷害，所以政府應該要更加重視這問題。像日本歐美等國家都沒有在抗議基地台的問題，日本基地台大大方方的放在屋頂上沒再做任何的掩飾的，也沒有民眾在抗議的。",
     "proposer": {
