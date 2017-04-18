@@ -98,7 +98,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 37,
+    "endorseCount": 38,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1497110400000,
@@ -115,7 +115,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 4963,
+    "needToEndorseCount": 4962,
     "outcome": "<p><span style=\"font-size: 12pt;\">刪除第四條中的朝會升旗之利益與影響:</span></p> \n<p><span style=\"font-size: 12pt;\">1.落實轉型正義</span></p> \n<p><span style=\"font-size: 12pt;\">2.避免學生身心之健康受影響</span></p> \n<p><span style=\"font-size: 12pt;\">3.讓學生能於早修時自習</span></p> \n<p><span style=\"font-size: 12pt;\">4.學校能有更多時間安排促進學生身心健康之活動</span></p> \n<p><span style=\"font-size: 12pt;\">&nbsp;</span></p> \n<p><span style=\"font-size: 12pt;\">增列條文規範學校及教師不得使用午休及早修進行考試之利益與影響:</span></p> \n<p><span style=\"font-size: 12pt;\">1.學生能於自習時間自習、午休時間休息</span></p> \n<p><span style=\"font-size: 12pt;\">2.減少學生考試之壓力</span></p> \n<p><span style=\"font-size: 16px;\">3.學校能有更多時間安排促進學生身心健康之活動</span></p> \n<p>&nbsp;</p>",
     "outline": "教育部主管高級中等學校學生在校作息時間規劃注意事項四、依總綱之規定，學習節數每週三十五節，其中包含必選修課程、團體活動時間及彈性學習時間。其他早修、朝會升旗、午餐、午休、環境清掃、課間活動等非學習節數之時間及活動內容，由各校依本注意事項納入作息時間規劃辦理。前項學習節數，每日排課以七節為原則，學校如有特殊需求，應提報主管機關許可後實施。十一、各校訂定學生在校作息時間時，應依循民主參與之程序，與學生",
     "proposer": {
@@ -1352,7 +1352,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 8,
+    "endorseCount": 9,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1493568000000,
@@ -1369,7 +1369,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 4992,
+    "needToEndorseCount": 4991,
     "outcome": "<p>串連中部及東部的交通，改善花東交通問題，疏解國道五號的車流</p>",
     "outline": "重新規劃中橫鐵路、中橫高速公路，並研究過去曾經計劃的可行性",
     "proposer": {
@@ -1493,7 +1493,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 218,
+    "endorseCount": 219,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1496764800000,
@@ -1510,7 +1510,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 4782,
+    "needToEndorseCount": 4781,
     "outcome": "<p>一、有鑑於現行國內汽車市場因市場規模不大，已造成獨佔情況。市場中僅有大眾車較易銷售。但在多元原則下，部份車型、車款因國內產家無市場規模而不生產、不引進、不販售（如一般手排房車、特殊、冷門型）。</p> \n<p>二、國內汽車產業之研發、生產能力目前均較過有所提昇，但目前市場已漸漸獨佔情況下，無更新之挑戰，缺少相對比較、刺激之下，對於國內汽車工業之發展及消費都權益不非有利。</p> \n<p>三、對於特殊愛好之車友又無法在合理價格之下獲得喜好之愛車，仍有違返多元、開放之精神。</p> \n<p>四、對於降低個人進口汽車之檢驗程序，並不會造成國內汽車檢驗標準，如可依歐盟之檢驗文件代替，相信歐盟之安全、污染防制應大部較國內標準高。</p> \n<p>五、對於降低個人進口汽車之檢驗程序，可檢視在同樣關稅下、代理商或水貨商引進之車價、服務之優劣。</p> \n<p>六、會想個人進口汽車的人畢竟是少數，現行大部份雙B等高級轎車之水貨商絕對可以進口到夠便宜之高級轎車。但部份是國內真的買不到適合自己的車才會想國外引進，而國內又囿於市場規模無法生產，但若連個人引進都困難重重，實在無法接受。</p> \n<p>七、進口汽車繳交關稅天經地義，但如繳交過多檢驗費用與多過檢驗程序，對於想個人進口車輛之民眾無非是種不合理之門檻與障礙。</p>",
     "outline": "建議放寬個人進口之新車或年份較輕之車輛得以國外原廠之檢查報告替代繁瑣之進口車輛檢驗",
     "proposer": {
@@ -2831,7 +2831,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 3,
+    "endorseCount": 4,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1494086400000,
@@ -2848,7 +2848,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 4997,
+    "needToEndorseCount": 4996,
     "outcome": "<p>&nbsp;</p> \n<p>&nbsp;<span style=\"font-size: 18pt;\">當人們因為\"基本收入\"政策的實施滿足了基本需求(食衣住行)後,人們就會去追求更高層次的需求=&gt; 愛與被愛的需求,認同與被認同的需求,尊重與被尊重的需求,以及更高層次自我價值實現的需求,如此社會將會更充滿大愛更加的美好。</span></p>",
     "outline": "基於未來機器人與AI將會完全取代人工,所以在此呼籲政府可以開始思考\"基本收入\"政策的實施了,機器人與AI是發明來造福人類的,是發明來幫助人類擺脫勞動的束腹,而不是只是成為財團賺錢的工具,如此只會造成貧富更加極端地不均,進而讓犯罪率增加,造成世間的混亂與戰爭不斷,所以在此建議政府可以從機器人與AI的生產利潤下手,從中提撥一定的比率來發放給全民的\"基本收入\",而這\"基本收入\"應該要符合人本原則,滿足人",
     "proposer": {
@@ -2894,6 +2894,22 @@
     "approvedDueDate": 1488902399000,
     "approvedTime": 1487410618000,
     "attachments": [
+      {
+        "attachmentDescription": "",
+        "attachmentIcon": "",
+        "attachmentName": "內側為超車道保持最高速行駛.jpg",
+        "attachmentParentUid": "",
+        "attachmentPath": "/data/attachment/a295e76b-a8fe-4f5c-b235-d6ec81b87cfa.jpg",
+        "attachmentType": 1,
+        "attachmentUid": "9546d7ca-4927-44ee-a941-f86c868186fa",
+        "attachmentUrl": "/attachments/9546d7ca-4927-44ee-a941-f86c868186fa",
+        "baseName": "內側為超車道保持最高速行駛.jpg",
+        "childAttachments": [],
+        "downloadUrl": "/attachments/9546d7ca-4927-44ee-a941-f86c868186fa/download/內側為超車道保持最高速行駛.jpg",
+        "fileExtension": "jpg",
+        "sectionUid": "",
+        "updateDate": 1487387072000
+      },
       {
         "attachmentDescription": "",
         "attachmentIcon": "",
@@ -2973,22 +2989,6 @@
         "fileExtension": "jpg",
         "sectionUid": "",
         "updateDate": 1487387072000
-      },
-      {
-        "attachmentDescription": "",
-        "attachmentIcon": "",
-        "attachmentName": "內側為超車道保持最高速行駛.jpg",
-        "attachmentParentUid": "",
-        "attachmentPath": "/data/attachment/a295e76b-a8fe-4f5c-b235-d6ec81b87cfa.jpg",
-        "attachmentType": 1,
-        "attachmentUid": "9546d7ca-4927-44ee-a941-f86c868186fa",
-        "attachmentUrl": "/attachments/9546d7ca-4927-44ee-a941-f86c868186fa",
-        "baseName": "內側為超車道保持最高速行駛.jpg",
-        "childAttachments": [],
-        "downloadUrl": "/attachments/9546d7ca-4927-44ee-a941-f86c868186fa/download/內側為超車道保持最高速行駛.jpg",
-        "fileExtension": "jpg",
-        "sectionUid": "",
-        "updateDate": 1487387072000
       }
     ],
     "attendMeeting": false,
@@ -3038,6 +3038,25 @@
     "slideshareLinkHtml": "",
     "slideshareReadLinkUrl": "",
     "sortedAttachments": [
+      {
+        "attachment": {
+          "attachmentDescription": "",
+          "attachmentIcon": "",
+          "attachmentName": "內側為超車道保持最高速行駛.jpg",
+          "attachmentParentUid": "",
+          "attachmentPath": "/data/attachment/a295e76b-a8fe-4f5c-b235-d6ec81b87cfa.jpg",
+          "attachmentType": 1,
+          "attachmentUid": "9546d7ca-4927-44ee-a941-f86c868186fa",
+          "attachmentUrl": "/attachments/9546d7ca-4927-44ee-a941-f86c868186fa",
+          "baseName": "內側為超車道保持最高速行駛.jpg",
+          "childAttachments": [],
+          "downloadUrl": "/attachments/9546d7ca-4927-44ee-a941-f86c868186fa/download/內側為超車道保持最高速行駛.jpg",
+          "fileExtension": "jpg",
+          "sectionUid": "",
+          "updateDate": 1487387072000
+        },
+        "id": ""
+      },
       {
         "attachment": {
           "attachmentDescription": "",
@@ -3127,25 +3146,6 @@
           "baseName": "超完車回原車道.jpg",
           "childAttachments": [],
           "downloadUrl": "/attachments/b104c85c-523c-4984-85a5-f8555ab5bd10/download/超完車回原車道.jpg",
-          "fileExtension": "jpg",
-          "sectionUid": "",
-          "updateDate": 1487387072000
-        },
-        "id": ""
-      },
-      {
-        "attachment": {
-          "attachmentDescription": "",
-          "attachmentIcon": "",
-          "attachmentName": "內側為超車道保持最高速行駛.jpg",
-          "attachmentParentUid": "",
-          "attachmentPath": "/data/attachment/a295e76b-a8fe-4f5c-b235-d6ec81b87cfa.jpg",
-          "attachmentType": 1,
-          "attachmentUid": "9546d7ca-4927-44ee-a941-f86c868186fa",
-          "attachmentUrl": "/attachments/9546d7ca-4927-44ee-a941-f86c868186fa",
-          "baseName": "內側為超車道保持最高速行駛.jpg",
-          "childAttachments": [],
-          "downloadUrl": "/attachments/9546d7ca-4927-44ee-a941-f86c868186fa/download/內側為超車道保持最高速行駛.jpg",
           "fileExtension": "jpg",
           "sectionUid": "",
           "updateDate": 1487387072000
@@ -5081,7 +5081,7 @@
     "declare": false,
     "disapprovedTime": "",
     "endorseConfigEnable": true,
-    "endorseCount": 11,
+    "endorseCount": 12,
     "endorseDegree": "",
     "endorseDegreeIfEnable": "",
     "endorseDueDate": 1494086400000,
@@ -5098,7 +5098,7 @@
     "isPublic": "Y",
     "isQualified": 0,
     "linkUrls": "",
-    "needToEndorseCount": 4989,
+    "needToEndorseCount": 4988,
     "outcome": "<ol> \n <li>目前台灣有很多違建，甚至在過去時期建商蓋了房屋賣出去就不負責的案件時有所聞，台灣經濟樞紐都是高樓大廈而我們必須給予人民安全的居住正義。管委會終究是管理大樓，爭對違建或是任何法律爭議必須由當初的建商跟設計團隊負責。</li> \n <li>台灣目前綠化實施非常不完善，必須轉為被動進行，依法通過後每間大樓都會有一定比例的公園跟停車位，減少違規停車跟增加綠環境。</li> \n <li>減少空屋率實行居住正義，讓建商承擔賣不出去的罰則。免責條款，若建商重建老舊大樓與社區不在此受限。</li> \n <li>人口擁擠就轉移人口，優先實施郊外的建設，停止都市內的老舊都更建案。政策必須促進人口移出老舊社區，所以未來重大公家機關設施優先設立郊外遠離市區，市區房子老舊，加上重要機關外移，適當促進人口轉移，平衡房屋價格。(例如老舊醫院跟商業大樓銀行轉移優先遠離市區)</li> \n <li>增加人民的安全，以及實行法律的完整性。</li> \n <li>未來都市更新不得強拆住戶，若有住戶不願意加入都更，建商跟政府就必須重新改圖，維持原先住戶的樓層跟通道與安全即可。房屋負責人將變成戶主。</li> \n <li>保障租屋的權利以及溝通管道。</li> \n</ol> \n<p>利益:持續並實行居住正義，綠化台灣</p> \n<p>&nbsp;</p> \n<p>影響:10年內舊建商的反彈但10年後會有新的建商會遵循新的法律</p> \n<p>&nbsp;</p> \n<p>&nbsp;</p> \n<p>&nbsp;</p> \n<p>&nbsp;</p> \n<p>&nbsp;</p>",
     "outline": "近年來台灣人口雖無爆炸性成長，但房屋建置卻越來越多，政府著重於都市更新與城市改造計畫同時應該要防止不當投資以及更有遠見的發展。建商為大樓的最終負責人，但不能參與管委會及大樓事務，未來重大事故法律相關處理(包含違建、公安等等)須由建商負責，且必須為大樓每戶房屋給予保險，房屋保年期限為50年。(自蓋房屋者由一開始的建商跟原屋主負責法律爭議)增加建築綠化法案，未來所有建設公司興建建築大樓需要至少三成建材",
     "proposer": {
