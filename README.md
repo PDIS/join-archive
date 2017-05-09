@@ -1,9 +1,6 @@
 # join-archive
-利用 phantomjs 下載所有「附議通過」的提案內容及附議名單
+利用 phantomjs-node 下載所有「提點子」的提案內容及附議名單
 
 # How to run
- -   install phantomjs & curl
- -   `phantomjs Crawler_Completed.js`
-
-# Update to github
- -   sh update.sh
+ -   install nodejs 7
+ -   node index.js
