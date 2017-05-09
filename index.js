@@ -24,7 +24,7 @@ const crawlData = async(type) => {
     var count = 1
 
     do {
-        status = await page.open('http://join.gov.tw/idea/index/search/' + type.toUpperCase() + '?page=' + count + '&size=100')
+        status = await page.open('https://join.gov.tw/idea/index/search/' + type.toUpperCase() + '?page=' + count + '&size=100')
         searchResult = await page.evaluate(function() { return searchResult })
         endorses = endorses.concat(searchResult.result)
         count = count + 1
@@ -34,7 +34,7 @@ const crawlData = async(type) => {
     console.log(endorses.length)
 
     for (endorse of endorses) {
-        await page.open('http://join.gov.tw/idea/detail/' + endorse.id)
+        await page.open('https://join.gov.tw/idea/detail/' + endorse.id)
         await timeout(2000)
         idea = await page.evaluate(function() { return idea })
         ideas.push(idea)
@@ -43,7 +43,7 @@ const crawlData = async(type) => {
             directory: "./archive/" + type + "/",
             filename: idea.id + ".csv"
         }
-        download("http://join.gov.tw/idea/export/endorse/suggestion/" + idea.id, options)
+        download("https://join.gov.tw/idea/export/endorse/suggestion/" + idea.id, options)
     }
 
     fs.writeFileSync("./archive/" + type + "/endorses.json", ideas)
