@@ -46,7 +46,7 @@ const crawlData = async(type) => {
         download("https://join.gov.tw/idea/export/endorse/suggestion/" + idea.id, options)
     }
 
-    fs.writeFileSync("./archive/" + type + "/endorses.json", ideas)
+    fs.writeFileSync("./archive/" + type + "/endorses.json", JSON.stringify(ideas))
 
     await instance.exit()
 }
