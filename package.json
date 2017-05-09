@@ -1,0 +1,16 @@
+{
+  "name": "join-archive-promise",
+  "version": "1.0.0",
+  "description": "archive join ideas with phantomjs-promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Dai",
+  "license": "MIT",
+  "dependencies": {
+    "download-file": "^0.1.5",
+    "phantom": "^4.0.2",
+    "rimraf": "^2.6.1"
+  }
+}
