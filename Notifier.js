@@ -99,10 +99,14 @@ function execute() {
         finish();
     }
 
-    page.open(JOB_URL[JOB_INDEX], function(status) {
+    page.open(JOB_URL[JOB_INDEX], function (status) {
         console.log('JOB_URL[' + JOB_INDEX + ']' + JOB_URL[JOB_INDEX]);
         if (status !== "success") {
             console.log("Unable to access network");
+            finish();
+        } else if (page.plainText == "404: Not Found") {
+            console.log(page.plainText);
+            finish();
         } else {
             ENDORSES = JSON.parse(page.plainText);
             console.log('Get ' + ENDORSES.length + ' endorses...');
@@ -116,27 +120,30 @@ function execute() {
                 console.log('Something wrong, no project on list');
                 finish();
             }
-
         }
     });
 }
 
 function getProjectContent() {
-    for (var current=0; current<ENDORSES.length - 1; current++) {
+    for (var current = 0; current < ENDORSES.length - 1; current++) {
         if (hours == config(CRON_HOURS)) {
-            if (JOB_INDEX == 0 && ENDORSES[current].govResponses.length == 0 && ((today.valueOf() - ENDORSES[current].secondSignedTime)/(3600000*24)).toFixed() >= config(GOV_NOTIFY_DAY)) {
+            if (JOB_INDEX == 0 && ENDORSES[current].govResponses.length == 0 && ((today.valueOf() - ENDORSES[current].secondSignedTime) / (3600000 * 24)).toFixed() >= config(GOV_NOTIFY_DAY)) {
                 // 改 master string -> array
-                console.log("機關回應倒數 " + (GOV_DAY - ((today.valueOf() - ENDORSES[current].secondSignedTime)/(3600000*24)).toFixed()) + " 天(" + ENDORSES[current].approvalOrganization.master.map(function(elem){return elem.organizationName;}).join(",") + "): " + ENDORSES[current].title);
-                GOOD_MSG0 += encodeURIComponent("機關回應倒數 " + (GOV_DAY - ((today.valueOf() - ENDORSES[current].secondSignedTime)/(3600000*24)).toFixed()) + " 天(" + ENDORSES[current].approvalOrganization.master.map(function(elem){return elem.organizationName;}).join(",") + "): [" + ENDORSES[current].title) + "](" + JOIN_DETAIL_URL + ENDORSES[current].id + ")\\n";
+                console.log("機關回應倒數 " + (GOV_DAY - ((today.valueOf() - ENDORSES[current].secondSignedTime) / (3600000 * 24)).toFixed()) + " 天(" + ENDORSES[current].approvalOrganization.master.map(function (elem) {
+                    return elem.organizationName;
+                }).join(",") + "): " + ENDORSES[current].title);
+                GOOD_MSG0 += encodeURIComponent("機關回應倒數 " + (GOV_DAY - ((today.valueOf() - ENDORSES[current].secondSignedTime) / (3600000 * 24)).toFixed()) + " 天(" + ENDORSES[current].approvalOrganization.master.map(function (elem) {
+                    return elem.organizationName;
+                }).join(",") + "): [" + ENDORSES[current].title) + "](" + JOIN_DETAIL_URL + ENDORSES[current].id + ")\\n";
             }
             // 濾 成案並持續附議
             if (JOB_INDEX == 1 && ENDORSES[current].endorseCount >= config(ENDORSE_NOTIFY_COUNT) && ENDORSES[current].endorseCount <= ENDORSE_COUNT) {
                 console.log("附議通過剩餘 " + (ENDORSE_COUNT - ENDORSES[current].endorseCount) + " 個: " + ENDORSES[current].title);
                 GOOD_MSG1_ENDORSE += encodeURIComponent("附議通過剩餘 " + (ENDORSE_COUNT - ENDORSES[current].endorseCount) + " 個: [" + ENDORSES[current].title) + "](" + JOIN_DETAIL_URL + ENDORSES[current].id + ")\\n";
             }
-            if (JOB_INDEX == 1 && (now.valueOf() - ENDORSES[current].approvedTime) <= config(APPROVED_NOTIFY_HOURS)*3600000) {
-                console.log(new Date(ENDORSES[current].approvedTime).toISOString().substring(0,10) + " 進入附議階段: " + ENDORSES[current].title);
-                GOOD_MSG1_APPROVED += encodeURIComponent(new Date(ENDORSES[current].approvedTime).toISOString().substring(0,10) + " 進入附議階段: [" + ENDORSES[current].title) + "](" + JOIN_DETAIL_URL + ENDORSES[current].id + ")\\n";
+            if (JOB_INDEX == 1 && (now.valueOf() - ENDORSES[current].approvedTime) <= config(APPROVED_NOTIFY_HOURS) * 3600000) {
+                console.log(new Date(ENDORSES[current].approvedTime).toISOString().substring(0, 10) + " 進入附議階段: " + ENDORSES[current].title);
+                GOOD_MSG1_APPROVED += encodeURIComponent(new Date(ENDORSES[current].approvedTime).toISOString().substring(0, 10) + " 進入附議階段: [" + ENDORSES[current].title) + "](" + JOIN_DETAIL_URL + ENDORSES[current].id + ")\\n";
             }
         }
     }
@@ -158,7 +165,7 @@ function getProjectContent() {
     }
     // 休息3秒後，繼續下一個工作（確保POST做完）
     setTimeout(
-        function() {
+        function () {
             JOB_INDEX += 1;
             execute();
         }, 3000);
@@ -177,14 +184,14 @@ function webhookRocketChat(title, msg) {
         "Authorization": ("Bearer " + config(BEARER_TOKEN))
     };
 
-    postPage.onConsoleMessage = function(msg, lineNum, sourceId) {
+    postPage.onConsoleMessage = function (msg, lineNum, sourceId) {
         console.log('CONSOLE: ' + msg + ' (from line #' + lineNum + ' in "' + sourceId + '")');
     };
-    postPage.open(config(ROCKETCHAT_WEBHOOK_URL), 'post', data, headers, function(status) {
+    postPage.open(config(ROCKETCHAT_WEBHOOK_URL), 'post', data, headers, function (status) {
         if (status !== 'success') {
             console.log('Unable to post!');
         }
-        // 當 Rocket.Chat grain 活着時可以得到回應
+        // 當 Rocket.Chat grain 活著時可以得到回應
         console.log(postPage.content);
         console.log(document.readyState);
     });
@@ -198,19 +205,19 @@ function waitFor(testFx, onReady, timeOutMillis) {
     var maxtimeOutMillis = timeOutMillis ? timeOutMillis : 3000, //< Default Max Timout is 3s
         start = new Date().getTime(),
         condition = false,
-        interval = setInterval(function() {
-            if ( (new Date().getTime() - start < maxtimeOutMillis) && !condition ) {
+        interval = setInterval(function () {
+            if ((new Date().getTime() - start < maxtimeOutMillis) && !condition) {
                 // If not time-out yet and condition not yet fulfilled
-                condition = (typeof(testFx) === "string" ? eval(testFx) : testFx()); //< defensive code
+                condition = (typeof (testFx) === "string" ? eval(testFx) : testFx()); //< defensive code
             } else {
-                if(!condition) {
+                if (!condition) {
                     // If condition still not fulfilled (timeout but condition is 'false')
                     console.log("'waitFor()' timeout");
                     phantom.exit(1);
                 } else {
                     // Condition fulfilled (timeout and/or condition is 'true')
                     console.log("'waitFor()' finished in " + (new Date().getTime() - start) + "ms.");
-                    typeof(onReady) === "string" ? eval(onReady) : onReady(); //< Do what it's supposed to do once the condition is fulfilled
+                    typeof (onReady) === "string" ? eval(onReady): onReady(); //< Do what it's supposed to do once the condition is fulfilled
                     clearInterval(interval); //< Stop this interval
                 }
             }
