@@ -35,7 +35,7 @@ const crawlData = async(type) => {
 
     for (endorse of endorses) {
         await page.open('https://join.gov.tw/idea/detail/' + endorse.id)
-        await timeout(3000)
+        await timeout(4000)
         idea = await page.evaluate(function() { return idea })
         ideas.push(idea)
         console.log(type + ' ' + endorses.indexOf(endorse) + ':' + idea.title)
