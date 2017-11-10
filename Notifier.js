@@ -104,8 +104,8 @@ function execute() {
         if (status !== "success") {
             console.log("Unable to access network");
             finish();
-        } else if (page.plainText == "404: Not Found") {
-            console.log(page.plainText);
+        } else if (page.plainText === "404: Not Found\n") {
+            console.log("^" + page.plainText + "$");
             finish();
         } else {
             ENDORSES = JSON.parse(page.plainText);
