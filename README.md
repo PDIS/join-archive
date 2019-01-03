@@ -3,4 +3,5 @@
 
 # How to run
  -   install nodejs 7
+ -   npm install
  -   node index.js
